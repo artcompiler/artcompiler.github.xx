@@ -14,9 +14,9 @@ to make corrections and additions to this page.
 ### EDITING
 
 - make a test change to a file
-- commit the change
-- test the change
-- push the change to your personal repo
+- test the change locally
+- commit the change to your local (cloned) repo
+- push the change to your personal remote repo
 
 ### SUBMITING A PULL REQUEST
 
