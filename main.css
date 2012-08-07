@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<style type="text/css" >
+body p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+body,td,th {
+	font-size: 12px;
+	color: #666;
+}
+body img { 
+    border:hidden;
+}
+body {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+a:link {
+	text-decoration: none;
+	background-color:#fffff;
+}
+a:visited {
+	text-decoration: none;
+	color: #111;
+}
+a:hover {
+	text-decoration: none;
+	color: #C0F;
+}
+a:active {
+	text-decoration: none;
+	color: #C0F;
+}
+div.banner_title {
+	font-family: Papyrus;
+	font-size: 36px;
+	font-style: normal;
+}
+div.menu_bar {
+	font-family: Papyrus;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #666;
+	font-size: small;
+    width : 550px;
+}
+body {
+	text-align : left;
+	min-width : #666;
+	font-size: 10px;
+}
+div.wrapper {
+	width : 550px;
+	text-align : left;
+	margin-left : 0;
+	margin-right : auto;
+	position : relative;
+	color: #666;
+	font-size: small;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+</style>
