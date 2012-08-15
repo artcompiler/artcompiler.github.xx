@@ -2,6 +2,42 @@
 /* CSS Document */
 
 <style type="text/css" >
+.logo {
+  font-size: 24pt;
+  color: #eee;
+}
+.text {
+  font-family: 'Linden Hill', serif;
+  font-size: 22pt;
+  color: #909099;
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+a {
+  color: rgba(255, 0, 0, 0.65);
+}
+
+a:visited {
+    color: rgba(255, 0, 0, 0.65);
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    background-color:#fffff;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
+
+b {
+  color: #777;
+}
 body p {
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -15,22 +51,6 @@ body img {
 body {
 	margin-left: 20px;
 	margin-top: 10px;
-}
-a:link {
-	text-decoration: none;
-	background-color:#fffff;
-}
-a:visited {
-	text-decoration: none;
-	color: #111;
-}
-a:hover {
-	text-decoration: none;
-	color: #C0F;
-}
-a:active {
-	text-decoration: none;
-	color: #C0F;
 }
 div.banner_title {
 	font-family: Papyrus;
@@ -58,6 +78,10 @@ div.wrapper {
 	color: #666;
 	font-size: small;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.logo {
+  font-size: 24pt;
+  color: #eee;
 }
 
 </style>
