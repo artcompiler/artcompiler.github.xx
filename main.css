@@ -8,9 +8,9 @@
 }
 .text {
   font-family: 'Linden Hill', serif;
-  font-size: 22pt;
-  color: #909099;
-  width: 630px;
+  font-size: 18pt;
+  color: #aaa;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -18,7 +18,7 @@
 
 a {
   color: #222;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 a:visited {
