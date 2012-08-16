@@ -17,12 +17,12 @@
 }
 
 a {
-  color: rgba(255, 0, 0, 0.65);
-  font-size: 16pt;
+  color: #222;
+  font-size: 20pt;
 }
 
 a:visited {
-    color: rgba(255, 0, 0, 0.65);
+    color: #222;
     text-decoration: none;
 }
 a:link {
@@ -30,15 +30,13 @@ a:link {
     background-color:#fffff;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.99);
 }
 a:active {
     text-decoration: none;
 }
 
-b {
-  color: #777;
-}
 body p {
 	font-family: Verdana, Geneva, sans-serif;
 }
