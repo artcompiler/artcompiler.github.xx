@@ -2,16 +2,18 @@
 /* CSS Document */
 
 <style type="text/css" >
+
 .logo {
   font-size: 20pt;
   color: #eee;
 }
+
 .text {
   font-family: 'Jura', sans-serif;
   font-weight: 400;
   font-size: 16pt;
-  color: #777;
-  width: 600px;
+  color: #555;
+  width: 674px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -20,7 +22,7 @@
 
 a {
   color: #222;
-  font-size: 15pt;
+  font-size: 16pt;
   font-family: 'Jura', serif;
   font-weight: 600;
 }
@@ -28,6 +30,13 @@ a {
 b {
   color: #222;
   font-size: 15pt;
+  font-family: 'Jura', serif;
+  font-weight: 600;
+}
+
+.title {
+  color: #555;
+  font-size: 20pt;
   font-family: 'Jura', serif;
   font-weight: 600;
 }
@@ -89,6 +98,7 @@ div.wrapper {
 	font-size: small;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
 .logo {
   font-size: 24pt;
   color: #eee;
@@ -98,7 +108,7 @@ div.wrapper {
   font-family: 'Linden Hill', serif;
   font-weight: 400;
   font-size: 14pt;
-  color: #555;
+  color: #111;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
