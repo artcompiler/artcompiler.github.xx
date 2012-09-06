@@ -80,5 +80,7 @@
     this.fixtureMap = fixtureMap
     this.edgeMap = edgeMap
     this.nodeIdList = nodeIdList
+    this.canvasWidth = 2500
+
 
 })()

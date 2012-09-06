@@ -58,12 +58,13 @@ var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
 var vis2
+var displayedLines = 76
 
 function getText(ln) {
     if (ln==void 0) {
 	ln = 0
     }
-    var stopLine = lineMap[ln+100]
+    var stopLine = lineMap[ln+displayedLines]
     var start = lineMap[ln][0].offset
     var stop = stopLine[stopLine.length-1].offset
     return fullText.slice(start, stop+1)
@@ -85,8 +86,12 @@ function getTextForNode(node) {
     var stopLn = node.stopLn
     var stopCol = node.stopCol
 
-    var startLineTokens = lineMap[startLn>3?startLn-3:1]
-    var stopLineTokens = lineMap[stopLn+3 < lineMap.length ? stopLn+3 : lineMap.length-1]
+    var headerLn = startLn>5?startLn-5:1
+    var footerLn = headerLn+displayedLines < lineMap.length ? headerLn+displayedLines : lineMap.length-1
+    var startLineTokens = lineMap[headerLn]
+    var stopLineTokens = lineMap[footerLn]
+
+    // search for non-blank line
     if (!startLineTokens) {
 	for (var i = startLn-3; !lineMap[i]; i++) ;
 	startLineTokens = lineMap[i]
@@ -95,6 +100,7 @@ function getTextForNode(node) {
 	for (var i = startLn+100; !lineMap[i]; i--) ;
 	stopLineTokens = lineMap[i]
     }
+
     var startTokenOffset = startLineTokens[0].offset
     var stopTokenOffset = stopLineTokens[stopLineTokens.length-1].offset
 
@@ -204,15 +210,20 @@ function makeNodeMap(ast) {
 
 var txt2
 
-function showText(data, n) {
-    var width = 1500
-    var height = (data[data.length-1].ln-data[0].ln)*13
-    if (height < 1000)
-	height = 1000
+var width = 500
+var prevCanvasWidth = this.canvasWidth
+this.canvasWidth = this.canvasWidth + width
 
-    var vis = d3.select("svg")
-	.attr("width", width)
-	.attr("height", height+50)
+function showText(data, n) {
+    var height = (data[data.length-1].ln-data[0].ln)*13
+    if (height < this.canvasHeight)
+	height = this.canvasHeight
+    else
+	this.canvasHeight = height
+
+    var vis = d3.select(".main")
+	.attr("width", this.canvasWidth)
+	.attr("height", this.canvasHeight+50)
 
     var offset = (data[0].ln-1) * 13
 
@@ -227,12 +238,19 @@ function showText(data, n) {
 	.attr("y", 1030)
 	.text(n.id+", ln "+data[0].ln+", "+n.class)
     
+    vis2 = d3.select(".main").append("svg")
+	.append("g")
+	.attr("width", this.canvasWidth)
+	.attr("height", this.canvasHeight)
+	.attr("transform", "translate(" + (prevCanvasWidth) + "," +(-offset)+ ")");
+
+/*
     vis2 = vis.append("svg")
 	.attr("width", width)
 	.attr("height", height)
 	.append("g")
-	.attr("transform", "translate(1040,"+(-offset)+")");
-
+	.attr("transform", "translate("+200+","+(-offset)+")");
+*/
     var node = vis2.selectAll("g.text")
 	.data(data)
       .enter().append("text")
