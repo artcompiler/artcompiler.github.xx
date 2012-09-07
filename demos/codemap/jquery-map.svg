@@ -2,6 +2,7 @@
 <?xml-stylesheet href="codemap.css" type="text/css"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg 
+    class="main"
     onload="init(evt)"
     onmousedown="mouseDown(evt)"
     onmousemove="mouseMove(evt)"
@@ -18,6 +19,7 @@
   <script xlink:href="jquery.js"></script>
   <script xlink:href="d3.v2.js"></script>
   <script xlink:href="codetree.js"></script>
+  <script xlink:href="codegraph.js"></script>
   <script xlink:href="codetext.js"></script>
   <script xlink:href="codemap.js"></script>
 </svg>

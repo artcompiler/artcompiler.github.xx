@@ -106,7 +106,7 @@
 	showGraph(classes)
     });
 
-    d3.json("todos.js.l7.l11", function(data) {
+    d3.json(mapName+".js.l7.l11", function(data) {
 	var classes = []
 	$.each(data, function(i, v) {
 	    var imports = []
