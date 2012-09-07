@@ -207,7 +207,7 @@
     }
 
     function startTree() {
-	d3.json(mapName+".js.l7.l11.l9.l12", function(tree) {
+	d3.json(mapName+".js.l7.l9.l12", function(tree) {
 	    fullTree = tree
 	    showTree(getTree(fullTree))  
 	})

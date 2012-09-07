@@ -350,7 +350,7 @@ function drawBorder(node, offset){
 }
 
     function startText() {
-	d3.json(mapName+".js.l7.l11.l9.l13", function(data) {
+	d3.json(mapName+".js.l7.l9.l13", function(data) {
 	    fullText = data
 	    makeLineMap(data)
 	    var n = nodeMap[nodeIdList[1]]

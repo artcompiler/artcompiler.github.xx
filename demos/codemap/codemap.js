@@ -5,7 +5,7 @@
     var edgeMap = {}
     var nodeIdList = []
 
-    d3.json(mapName+".js.l7.l11.l9", function(ast) {
+    d3.json(mapName+".js.l7.l9", function(ast) {
 	makeNodeMap(ast)
 	getRootNode(ast).hidden = false
 	startTree()
