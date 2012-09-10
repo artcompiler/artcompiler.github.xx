@@ -13,7 +13,7 @@
   font-weight: 400;
   font-size: 16pt;
   color: #555;
-  width: 602px;
+  width: 605px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -51,7 +51,7 @@ a:link {
 }
 a:hover {
     text-decoration: none;
-    color: rgba(255, 0, 0, 0.99);
+    color: #C6533F;
 }
 a:active {
     text-decoration: none;
