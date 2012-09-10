@@ -11,9 +11,9 @@
 .text {
   font-family: 'Jura', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 14pt;
   color: #555;
-  width: 605px;
+  width: 625px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -36,7 +36,7 @@ b {
 
 .title {
   color: #555;
-  font-size: 20pt;
+  font-size: 18pt;
   font-family: 'Jura', serif;
   font-weight: 600;
 }
@@ -47,7 +47,7 @@ b {
 }
 
 .red {
-  color: #B5121B;
+  color: #C6533F;
   font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ a:link {
 }
 a:hover {
     text-decoration: none;
-    color: #D7846D;
+    color: #C6533F;
 }
 a:active {
     text-decoration: none;
