@@ -39,6 +39,9 @@ b {
   font-size: 18pt;
   font-family: 'Jura', serif;
   font-weight: 600;
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footnote {
@@ -52,7 +55,7 @@ b {
 }
 
 .grey {
-    color: #555;
+    color: #777;
   font-weight: 400;
 }
 
