@@ -18,18 +18,16 @@
   line-height: 1.4
 }
 
-a {
-  color: #222;
-  font-size: 16pt;
-  font-family: 'Jura', serif;
-  font-weight: 600;
-}
-
-b {
-  color: #222;
-  font-size: 15pt;
-  font-family: 'Jura', serif;
-  font-weight: 600;
+.prose {
+  font-family: 'Jura', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  color: #000;
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.4
 }
 
 .title {
@@ -40,6 +38,22 @@ b {
   width: 625px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+a {
+  color: #000;
+  font-size: 16pt;
+  font-family: 'Jura', serif;
+  font-weight: 600;
+}
+
+b {
+  color: #222;
+  font-size: 15pt;
+  font-family: 'Jura', serif;
+  font-weight: 600;
 }
 
 .footnote {
@@ -117,17 +131,5 @@ div.wrapper {
 .logo {
   font-size: 24pt;
   color: #eee;
-}
-
-.prose {
-  font-family: 'Jura', sans-serif;
-  font-weight: 400;
-  font-size: 12pt;
-  color: #111;
-  width: 620px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  line-height: 1.4
 }
 
