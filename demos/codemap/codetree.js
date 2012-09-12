@@ -6,22 +6,23 @@
     function showStatus() { }
 
     var cluster2
-    var leafNodeCount = 0
+    var leafNodes = []
 
     var diagonal = d3.svg.diagonal()
 	.projection(function(d) { return [d.y, d.x]; });
 
     var vis2
 
-    var selectedId
-
     function mouseDown(e) {
 	var node = d3.select(e.target)
+	if (!node) return
 	var id = node.attr("id")
-	selectedId = id
+	if (!id) return
+	window.selectedId = id
 	nodeMap[id].hidden = !nodeMap[id].hidden
-	leafNodeCount = 0
+	leafNodes = []
 	showTree(getTree(fullTree))
+	updateGraph(id, leafNodes)
 	updateText(id)
     }
 
@@ -62,7 +63,7 @@
 	else
 	    if (node.id && node.edges) {
 		if (node.edges.length === 0 || nodeMap[node.id].hidden) {
-		    leafNodeCount++
+		    leafNodes.push(node.id)
 		}
 
 		if (!nodeMap[node.id].hidden) {
@@ -89,7 +90,7 @@
 			kids.push(t)
 		    }
 		});
-		leafNodeCount++
+		leafNodes.push(v.id)
 		return kids
 	    }
 	else {
@@ -101,7 +102,7 @@
     this.canvasWidth = width
     
     function showTree(tree) {
-	var height = leafNodeCount * 15
+	var height = leafNodes.length * 15
 
 	if (height < 1000) 
 	    this.canvasHeight = 1000
@@ -203,7 +204,7 @@
     }
 
     function isSelected(id) {
-	return selectedId === id
+	return window.selectedId === id
     }
 
     function startTree() {
@@ -220,4 +221,5 @@
     this.mouseUp = mouseUp
     this.mouseDown = mouseDown
     this.startTree = startTree
+    this.isSelected = isSelected
 })()

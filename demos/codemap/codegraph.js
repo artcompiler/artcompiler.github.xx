@@ -97,25 +97,75 @@
 	    .attr("fill", "grey")
 	    .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
 	    .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
-	    .text(function(d) { return d.key; });
+	    .attr("id", function(d) { return d.name })
+	    .text(function(d) {
+		return d.label;
+	    });
     }
 
-    d3.select(window).on("mousedown", function() {
-	var id = d3.event.target.firstChild.wholeText
-	var classes = getChildren(id)
-	showGraph(classes)
-    });
-
-    d3.json(mapName+".js.l7.l11", function(data) {
+    function updateGraph(id, leafNodes) {
 	var classes = []
-	$.each(data, function(i, v) {
+	$.each(leafNodes, function(i, v) {
 	    var imports = []
-	    $.each(v.edges, function(i, v) {
-		imports.push(v.id)
-	    })
-		classes.push({name: v.id, label: v.class, imports: imports})
+	    var n = nodeMap[v]
+	    var edges = edgeMap[v] ? edgeMap[v] : []
+	    edges = getChildEdges(n, edges)
+	    if (edges) {
+		$.each(edges, function(i, v) {
+		    var id = getVisibleNode(v, leafNodes)
+		    imports.push(id)
+		});
+	    }
+	    classes.push({name: v, label: n.class, imports: imports})	    
+	});
+	showGraph(classes)
+    }
+
+    function getChildEdges(node, edges) {
+	if (node && node.elts) {
+	    $.each(node.elts, function (i, v) {
+		var e = edgeMap[v.id]
+		if (e) {
+		    edges = edges.concat(e)
+		}
+		edges = getChildEdges(v, edges)
+	    });
+	}
+	else if ($.isArray(node)) {
+	    $.each(node, function (i, v) {
+		var e = edgeMap[v.id]
+		if (e) {
+		    edges = edges.concat(e)
+		}
+		edges = getChildEdges(v, edges)
+	    });
+	    edges = getChildEdges(node[0], edges)
+	}
+	return edges
+    }
+
+
+    function getVisibleNode(id, nodeIds) {	
+	var n = nodeMap[id]
+	// search the tree to find a matching parent for the id
+	while (n && nodeIds.indexOf(n.id) < 0) {
+	    n = nodeMap[n.parent]
+	}
+	if (n) {
+	    return n.id
+	}	
+    }
+
+
+
+    function startGraph() {
+	d3.json(mapName+".js.l7.l11", function(data) {
+	    updateGraph(rootNode.id, [rootNode.id])
 	})
-	    showGraph(classes)
-    });
+    }
+
+    // exports
+    this.startGraph = startGraph
+    this.updateGraph = updateGraph
 
 })();
