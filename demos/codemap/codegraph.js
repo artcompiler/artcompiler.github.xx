@@ -99,9 +99,27 @@
 	    .attr("transform", function(d) { return d.x < 180 ? null : "rotate(180)"; })
 	    .attr("id", function(d) { return d.name })
 	    .text(function(d) {
-		return d.label;
+		return (d.children && d.children.length) ? d.class : getLabel(d.name)
 	    });
     }
+
+    function getLabel(id) {
+	var node = nodeMap[id]
+	switch (node.class) {
+	case "Fixture":
+	    return "var " + node.elts[1].elts[0]
+	case "Name":
+	case "Identifier":
+	    return node.elts[0]
+	case "LiteralString":
+	case "LiteralBoolean":
+	case "LiteralInt":
+	    return node.class + ": " + node.elts[0]
+	default:
+	    return node.class
+	}
+    }
+
 
     function updateGraph(id, leafNodes) {
 	var classes = []
@@ -109,43 +127,18 @@
 	    var imports = []
 	    var n = nodeMap[v]
 	    var edges = edgeMap[v] ? edgeMap[v] : []
-	    edges = getChildEdges(n, edges)
-	    if (edges) {
-		$.each(edges, function(i, v) {
-		    var id = getVisibleNode(v, leafNodes)
+	    $.each(edges, function(i, v) {
+		var id = getVisibleNode(v, leafNodes)
+		if (id && imports.indexOf(id) < 0) {
 		    imports.push(id)
-		});
-	    }
-	    classes.push({name: v, label: n.class, imports: imports})	    
+		}
+	    });
+	    classes.push({name: v, class: n.class, imports: imports})	    
 	});
 	showGraph(classes)
     }
 
-    function getChildEdges(node, edges) {
-	if (node && node.elts) {
-	    $.each(node.elts, function (i, v) {
-		var e = edgeMap[v.id]
-		if (e) {
-		    edges = edges.concat(e)
-		}
-		edges = getChildEdges(v, edges)
-	    });
-	}
-	else if ($.isArray(node)) {
-	    $.each(node, function (i, v) {
-		var e = edgeMap[v.id]
-		if (e) {
-		    edges = edges.concat(e)
-		}
-		edges = getChildEdges(v, edges)
-	    });
-	    edges = getChildEdges(node[0], edges)
-	}
-	return edges
-    }
-
-
-    function getVisibleNode(id, nodeIds) {	
+    function getVisibleNode(id, nodeIds) {
 	var n = nodeMap[id]
 	// search the tree to find a matching parent for the id
 	while (n && nodeIds.indexOf(n.id) < 0) {
@@ -153,7 +146,9 @@
 	}
 	if (n) {
 	    return n.id
-	}	
+	}
+//	alert(id+"has no visible parent")
+	return null
     }
 
 

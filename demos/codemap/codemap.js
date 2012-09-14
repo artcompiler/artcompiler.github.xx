@@ -60,8 +60,12 @@
 			if (edgeMap[v1] === void 0) {
 			    edgeMap[v1] = []
 			}
-			edgeMap[v0].push(v1)
-			edgeMap[v1].push(v0)
+			if (edgeMap[v0].indexOf(v1) < 0) {
+			    edgeMap[v0].push(v1)
+			}
+			if (edgeMap[v1].indexOf(v0) < 0) {
+			    edgeMap[v1].push(v0)
+			}
 		    });
 		});
 	    });
@@ -71,6 +75,7 @@
     function getParents(n) {
 	var parents = []
 	var node = nodeMap[n]
+	parents.push(node.id)   // include the child too
 	while (node.parent) {
 	    parents.push(node.parent)
 	    node = node.parent

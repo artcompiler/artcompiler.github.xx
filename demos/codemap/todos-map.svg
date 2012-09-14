@@ -19,7 +19,7 @@
   <script xlink:href="jquery.js"></script>
   <script xlink:href="d3.v2.js"></script>
   <script xlink:href="codetree.js"></script>
-  <script xlink:href="codegraph.js"></script>
   <script xlink:href="codetext.js"></script>
+  <script xlink:href="codegraph.js"></script>
   <script xlink:href="codemap.js"></script>
 </svg>

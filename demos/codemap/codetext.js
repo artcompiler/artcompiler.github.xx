@@ -3,7 +3,6 @@
 function init(e) { }
 function mouseMove(e) { }
 function mouseUp(e) { }
-function showStatus() { }
 
 function mouseWheel() {
     var e = d3.event
@@ -208,8 +207,6 @@ function makeNodeMap(ast) {
     }
 }
 
-var txt2
-
 var width = 500
 var prevCanvasWidth = this.canvasWidth
 this.canvasWidth = this.canvasWidth + width
@@ -230,14 +227,6 @@ function showText(data, n) {
     if (vis2)
 	vis2.remove()
 
-    if (txt2)
-	txt2.remove()
-
-    txt2 = vis.append("text")
-	.attr("x", 10)
-	.attr("y", 1030)
-	.text(n.id+", ln "+data[0].ln+", "+n.class)
-    
     vis2 = d3.select(".main").append("svg")
 	.append("g")
 	.attr("width", this.canvasWidth)
@@ -386,7 +375,6 @@ function drawBorder(node, offset){
     this.init = init
     this.mouseMove = mouseMove
     this.mouseUp = mouseUp
-    this.showStatus = showStatus
     this.keyPress = keyPress
     this.startText = startText
     this.updateText = updateText

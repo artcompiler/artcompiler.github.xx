@@ -3,7 +3,6 @@
     function init(e) { }
     function mouseMove(e) { }
     function mouseUp(e) { }
-    function showStatus() { }
 
     var cluster2
     var leafNodes = []
@@ -172,9 +171,9 @@
 	leafNodeIds.push(id)
 	switch (node.class) {
 	case "Fixture":
-	    return node.class + ": " + node.elts[1].elts[0].elts[0]
+	    return node.class + ": " + node.elts[1].elts[0]
 	case "Name":
-	    return node.class + ": "+node.elts[0].elts[0]
+	    return node.class + ": "+node.elts[0]
 	case "Identifier":
 	case "LiteralString":
 	case "LiteralBoolean":

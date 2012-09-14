@@ -3696,6 +3696,9 @@
     return points;
   }
   function d3_layout_bundleAncestors(node) {
+      if(!node) {
+	  node = node
+      }
     var ancestors = [], parent = node.parent;
     while (parent != null) {
       ancestors.push(node);

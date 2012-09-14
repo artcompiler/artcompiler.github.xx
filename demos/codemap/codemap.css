@@ -1,10 +1,10 @@
 .link {
-    stroke: rgba(0,173,209, .5);
+    stroke: rgba(0,173,209, .4);
     fill: none;
 }
 
 .node {
-    fill: rgba(0,173,209, .5);
+    fill: rgba(0,173,209, .4);
 }
 
 text {
