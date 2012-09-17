@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Code Cartography \ Art Compiler</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Jura:400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<img src="spacer.gif" height="50" />
+<center>
+<div class="logo">
+<a href="index.html"><img src="logo.png" width="150"/></a>
+</div>
+</center>
+<img src="spacer.gif" height="50" />
+
+<p class="title">
+Code Cartography
+</p>
+
+<p class="text">
+Code Cartography is a practice of creating maps of software source code. Through interactive
+visualization, users are able to see at once orders of magnitude more code than is possible through
+conventional text search and cross reference tools. They are able to see syntax and semantics from
+the level of modules down to the level basic blocks. They are able to select a range of semantic
+graphs including those depicting reference dependencies, call graphs, class inheritance, module
+dependencies, control flow, data flow, profile information, code coverage, and so on.
+</p>
+
+<p class="text">
+Code maps are built on three basic types of views. The syntax view displays an expandable abstract syntax
+tree, which allows users to move between levels of program detail. The text view shows the formatted text
+of the code, which allows users to see just the code of the program that is of interest
+during a particular investigation. The third and most powerful view is the semantic view, which allows
+users to see various semantic relationships between selected parts of the program. These three views
+are linked such that a selection in one view will cause the other views to be updated to represent the same
+parts of the program.
+</p>
+
+<p class="text">
+<b>Syntax View</b>. The syntax view refracts code through the grammar of its language, as illustrated in Figure 1.
+<br><br>
+<img src="codecartography-syntaxview.png" width="620"/>
+<br/><br/>
+<span class="footnote"><b class="footnote">Figure 1</b>. A syntax view of the backbone example, todos.js, showing the definition
+of the property 'localStorage'.</span>
+</p>
+
+<p class="text">
+<b>Text View</b>. The text view shows an abstracted view of the code that elides details that are
+not important to the current view, and formats the code in a consistent style, as shown in Figure 2. The text view is important
+in that it is closest to the form of the code the programmer must work with. It is the bridge between the
+other, more abstract views and the original code.
+<br/><br/>
+<img src="codecartography-textview.png" width="400"/>
+<br/><br/>
+<span class="text footnote"><b class="footnote">Figure 2</b>. A text view of backbone.js showing the syntax based selection of a
+field of an object initializer.</span>
+</p>
+
+
+<p class="text">
+<b>Semantic View</b>. The semantic view refracts code through the semantics of the language, as
+illustrated in Figure 3. This includes static analysis performed by a compiler, as well as by
+dynamic profiling and even user annotations. Semantic views are generated off-line by compiler
+plugins. The relationships represented are limited only by what can be represented in a network
+graph.
+<br/><br/>
+<img src="codecartography-semanticview.png" width="620"/>
+<br/><br/>
+<span class="footnote"><b class="footnote">Figure 3</b>. A semantic view of backbone.js showing references to variables defined in the toplevel function module.</span>
+</p>
+
+<p class="text">
+<b>One Model, Three Views</b>. These three views are backed by the same core data structures. Each
+is indexed by the nodes of the abstract syntax tree. Navigating in one view is reflected in the other
+views. Selection in all three views is constrained by the range of nodes in the syntax tree. For example, a
+user can select the body of a function in the text view by clicking within that function until whole body
+is selected. The syntax view will show the relationship of that function to the rest of the tree in both directions.
+The semantics view will show the semantics relationships of that function to the rest of the code, inside and out.
+</p>
+
+<p class="text">
+Each view affords some level of user control over the formatting and highlighting. For example, the code
+formatting and highlighting in the text view and the color scheme for nodes and edges in the various
+graph views are controlled by standard or custom preferences. 
+</p>
+
+<p class="text">
+<b>Commissions and Collaborations</b>.
+
+We are interested in commissions of code cartography works as well as collaborations that improve
+our practice. The following are a few such projects we have in mind:
+
+<ul class="text">
+<li>
+Working with language designers to develop the backend compiler plugins that generate views for their language.
+Of particular interest are plugins that do advanced static analysis.
+</li>
+<li>
+Working with open source software projects to create visual browsers for their repositories. Such tools
+make source code more accessible for project newcommers and more understandable for experts. 
+</li>
+<li>
+Working with testing organizations to create visual code coverage browsers. With each new build, a code map
+will be produced that projects code coverage data onto the syntax, text and semantic views of the source code.
+</li>
+<li>
+Working with computer science educators to provide online tools for understanding code. In addition to providing
+syntax and semantic views of programs student write, code maps can point out defects through lint-like analysis.
+</li>
+</ul>
+</p>
+<p class="text">
+Inquiries should be directed to <a href="mailto:jeff@artcompiler.org">Jeff Dyer</a>
+</p>
+
+<img src="spacer.gif" height="30" />
+<center>
+<span class="footnote grey">mail</span>
+<span class="footnote red">jeff</span>
+<span class="footnote grey">at</span>
+<span class="footnote red">artcompiler</span>
+<span class="footnote grey">dot</span>
+<span class="footnote red">org</span>
+<span class="footnote grey">&nbsp;&bull;</span>
+<span class="footnote grey">follow</span>
+<span class="footnote red">@artcompiler</span>
+<span class="footnote grey">&nbsp;&bull;</span>
+<span class="footnote grey">http</span>
+<span class="footnote red">artcompiler</span>
+<span class="footnote grey">dot</span>
+<span class="footnote red">org</span>
+</center><br>
+</body>
+</html>
