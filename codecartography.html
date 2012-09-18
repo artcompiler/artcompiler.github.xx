@@ -54,7 +54,7 @@ of the property 'localStorage'.</span>
 
 <p class="text">
 <b>Text View</b>. The text view provides a formatted, highlighted view the original source text, and 
-elides details that are not significant to the exploration. The text view provides a bridge between
+elides details that are not significant to the current point-of-view. The text view provides a bridge between
 the original code and the other, more abstract views. It is complete and compatible with the source
 code being mapped. Figure 2 illustrates the text view.
 
@@ -84,8 +84,8 @@ is indexed by the nodes of the abstract syntax tree. Navigating in one view is r
 other views. Selection in all three views is constrained by the range of nodes in the syntax tree.
 For example, a user can select the body of a function in the text view by clicking within that
 function until the whole body is selected. The syntax view will show the relationship of that
-function to the rest of the tree in both directions. The semantics view will show the semantics
-relationships of that function to the rest of the code, inside and out.
+function to the rest of the tree in both directions. The semantic view will show the semantics of
+the function as it relates to code outside the function.
 </p>
 
 <p class="text">
