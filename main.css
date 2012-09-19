@@ -30,6 +30,18 @@
   line-height: 1.4
 }
 
+.code {
+  font-family: 'Courier', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+  color: #000;
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.4
+}
+
 .title {
   color: #555;
   font-size: 18pt;
