@@ -7,6 +7,12 @@
 <link href='http://fonts.googleapis.com/css?family=Jura:400,600' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Linden+Hill' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
+<style>
+.code {
+   background-color: #ffffff;
+   color: #1d1d1c;  // dark grey
+}
+</style>
 </head>
 <body>
 <img src="spacer.gif" height="50" />
@@ -27,28 +33,27 @@ computers.
 </p>
 
 <p class="text">
-Imagine, for example, a robot that understands time and knows how to move forward and backward and
+Imagine, for example, a robot that has the ability to move forward and backward and
 turn right and left by any angle. The following program might be used to describe a behavior of that
 robot.
 </p>
 
 <p class="code">
-on dance n. if n is zero then stop. move forward two seconds.
+on dance n. if n is zero then return. move forward two seconds.
 turn right ninety degrees. move backward two seconds.
 turn right ninety degrees. move forward two seconds. turn
 left ninety degrees. move forward two seconds. turn left
-ninety degrees. do dance n minus one. no dance.
+ninety degrees. dance n minus one.
 <br>
 <br>
-do dance ten.
+dance ten.
 </p>
 
 <p class="text">
 This program defines a recursive function 'dance' that terminates when its parameter 'n' is equal to 'zero'.
-The 'on' keyword introduces a function definition. The 'do' keyword introduces an invocation of a 
-function. The 'no' keyword marks the end of a function definition. The 'move' and 'turn' commands 
-describe behaviors that have platform specific implementations. The 'minus' operator is a builtin
-arithmetic operator.
+The 'on' keyword introduces a procedure definition. The 'return' keyword returns control to the caller.
+The 'move' and 'turn' commands describe behaviors that have platform specific implementations. The
+'minus' operator is a builtin arithmetic operator.
 </p>
 
 <p class="text">
@@ -56,6 +61,10 @@ You've probably noticed that the only punctuation used is the period, and that n
 out as words. These features allow this program to be typed into a smart phone keyboard without switching
 modes. For this same reason the language is case insensitive and whitespace is only significant for
 separating tokens.
+</p>
+
+<p class="text">
+This is just one example of the kind of language we produce in Graffiti Code.
 </p>
 
 <p class="text">
