@@ -130,8 +130,8 @@ div.CodeMirror-selected { background: #d9d9d9; }
 
 /* Default theme */
 
-.cm-s-default span.cm-ident {color: #219;}
-.cm-s-default span.cm-keyword {color: #708;}
+.cm-s-default span.cm-ident {color: #777;}
+.cm-s-default span.cm-keyword {color: #111;}
 .cm-s-default span.cm-atom {color: #219;}
 .cm-s-default span.cm-number {color: #164;}
 .cm-s-default span.cm-def {color: #00f;}

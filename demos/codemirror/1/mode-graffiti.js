@@ -97,6 +97,9 @@ CodeMirror.defineMode("graffiti", function() {
     function stmts(ctx, cc) {
 	console.log("stmts()")
         return stmt(ctx, function (ctx) {
+	    if (match(ctx, TK_ON)) {
+		return cc
+	    }
             return stmts(ctx, cc)
         })
     }
@@ -106,14 +109,19 @@ CodeMirror.defineMode("graffiti", function() {
 	if (match(ctx, TK_IF)) {
 	    return ifStmt(ctx, cc)
 	}
+	else
+	if (match(ctx, TK_RETURN)) {
+	    return returnStmt(ctx, cc)
+	}
 	else {
 	    return exprStmt(ctx, cc)
 	}
     }
 
     function exprStmt(ctx, cc) {
-	expr(ctx, cc)
+	var ret = expr(ctx, cc)
 	eat(ctx, TK_DOT)
+        ret.cls = "punc"
     }
 
     function expr(ctx, cc) {
@@ -130,9 +138,7 @@ CodeMirror.defineMode("graffiti", function() {
  
     function args(ctx, cc) {
 	console.log("args()")
-        if (match(ctx, TK_DOT)) {
-	    eat(ctx, TK_DOT)
-            cc.cls = "punc"
+        if (match(ctx, TK_DOT) || match(ctx, TK_ON)) {
             return cc
         }
         return expr(ctx, function (ctx) {
@@ -163,7 +169,12 @@ CodeMirror.defineMode("graffiti", function() {
         eat(ctx, TK_THEN)
         var ret = function (ctx) {
             return stmt(ctx, function (ctx) {
-                return elseClause(ctx, cc)
+		if (match(ctx, TK_ELSE)) {
+                    return elseClause(ctx, cc)
+		}
+		else {
+		    return cc
+		}
             })
         }
         ret.cls = "keyword"
@@ -175,6 +186,16 @@ CodeMirror.defineMode("graffiti", function() {
         eat(ctx, TK_ELSE)
         var ret = function (ctx) {
             return stmt(ctx, cc)
+        }
+        ret.cls = "keyword"
+        return ret
+    }
+
+    function returnStmt(ctx, cc) {
+	console.log("returnStmt()")
+        eat(ctx, TK_RETURN)
+        var ret = function (ctx) {
+            return expr(ctx, cc)
         }
         ret.cls = "keyword"
         return ret
@@ -236,6 +257,7 @@ CodeMirror.defineMode("graffiti", function() {
 		return "comment"
 	    }
 	    else {
+		alert("x")
 		next(ctx)
 		return ""
 	    }
