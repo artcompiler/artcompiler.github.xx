@@ -130,10 +130,12 @@ div.CodeMirror-selected { background: #d9d9d9; }
 
 /* Default theme */
 
-.cm-s-default span.cm-ident {color: #777;}
-.cm-s-default span.cm-keyword {color: #111;}
+.cm-s-default span.cm-ident {color: #333;}
+.cm-s-default span.cm-method {color: #333;}
+.cm-s-default span.cm-keyword {color: rgb(154,48,105);}
 .cm-s-default span.cm-atom {color: #219;}
-.cm-s-default span.cm-number {color: #164;}
+.cm-s-default span.cm-handler {color: rgb(53,100,153);}
+.cm-s-default span.cm-number {color: rgb(32,126,113);}
 .cm-s-default span.cm-def {color: #00f;}
 .cm-s-default span.cm-variable {color: black;}
 .cm-s-default span.cm-variable-2 {color: #05a;}
