@@ -30,6 +30,19 @@
   line-height: 1.4
 }
 
+.prose-link {
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  font-size: 13pt;
+  color: #000;
+  width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.4
+}
+
+
 .code {
   font-family: 'Courier', sans-serif;
   font-weight: 400;
