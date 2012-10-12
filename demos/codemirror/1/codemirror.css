@@ -1,7 +1,9 @@
 .CodeMirror {
   width: 600px;
   line-height: 1em;
-  font-family: Verdana, Geneva, sans-serif;
+//  font-family: Verdana, Geneva, sans-serif;
+  font-family: Andale Mono, monospace;
+  font-size: 12;
 
   /* Necessary so the scrollbar can be absolutely positioned within the wrapper on Lion. */
   position: relative;
@@ -11,7 +13,7 @@
 
 .CodeMirror-scroll {
   overflow: auto;
-  height: 300px;
+//  height: 300px;
   /* This is needed to prevent an IE[67] bug where the scrolled content
      is visible outside of the scrolling box. */
   position: relative;
@@ -128,20 +130,24 @@ div.CodeMirror-selected { background: #d9d9d9; }
   background: rgba(255, 255, 0, .4);
 }
 
+
+
 /* Default theme */
 
-.cm-s-default span.cm-ident {color: #333;}
-.cm-s-default span.cm-method {color: #333;}
-.cm-s-default span.cm-keyword {color: rgb(154,48,105);}
+.cm-s-default span.cm-punc {color: black;}
+.cm-s-default span.cm-method {color: #222;}
+.cm-s-default span.cm-val {color: #777} //{color: #085;}
+.cm-s-default span.cm-operator {color: #333;}
+
+.cm-s-default span.cm-handler {color: rgb(53,100,253);}
+.cm-s-default span.cm-keyword {color: rgb(180,48,125);}
+.cm-s-default span.cm-number {color: rgb(32,156,113);}
+
+.cm-s-default span.cm-ident {color: #bbb;}
 .cm-s-default span.cm-atom {color: #219;}
-.cm-s-default span.cm-handler {color: rgb(53,100,153);}
-.cm-s-default span.cm-number {color: rgb(32,126,113);}
 .cm-s-default span.cm-def {color: #00f;}
 .cm-s-default span.cm-variable {color: black;}
-.cm-s-default span.cm-variable-2 {color: #05a;}
-.cm-s-default span.cm-variable-3 {color: #085;}
 .cm-s-default span.cm-property {color: black;}
-.cm-s-default span.cm-operator {color: black;}
 .cm-s-default span.cm-comment {color: #bbb;}
 .cm-s-default span.cm-string {color: #a11;}
 .cm-s-default span.cm-string-2 {color: #f50;}
