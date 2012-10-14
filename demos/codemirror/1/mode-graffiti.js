@@ -7,7 +7,7 @@ CodeMirror.defineMode("graffiti", function() {
     }
 
     function print(str) {
-	//console.log(str)
+	console.log(str)
     }
 
 
@@ -25,14 +25,20 @@ CodeMirror.defineMode("graffiti", function() {
     var TK_FUN    = 0x0C
     var TK_VAL    = 0x0D
     var TK_BINOP  = 0x0E
+    var TK_CASE   = 0x0F
+    var TK_OF     = 0x10
+    var TK_END    = 0x11
 
     var globalLexicon = {
         "fun" : { tk: TK_FUN, cls: "keyword" },
         "val" : { tk: TK_VAL, cls: "keyword" },
         "if" : { tk: TK_IF, cls: "keyword" },
+        "case" : { tk: TK_CASE, cls: "keyword" },
         "then" : { tk: TK_THEN, cls: "keyword" },
         "else" : { tk: TK_ELSE, cls: "keyword" },
 	"is" : { tk: TK_IS, cls: "keyword", length: 0 },
+	"of" : { tk: TK_OF, cls: "keyword", length: 0 },
+	"end" : { tk: TK_END, cls: "keyword", length: 0 },
 
 	"zero" : { tk: TK_NUM, cls: "number", length: 0 },
 	"one" : { tk: TK_NUM, cls: "number", length: 0 },
@@ -269,6 +275,9 @@ CodeMirror.defineMode("graffiti", function() {
     
     function expr(ctx, cc) {
 	print("expr()")
+	if (match(ctx, TK_IF) || match(ctx, TK_CASE)) {
+	    return condExpr(ctx, cc)
+	}
 	return isExpr(ctx, cc)
     }
 
@@ -286,14 +295,6 @@ CodeMirror.defineMode("graffiti", function() {
 
     function stmt(ctx, cc) {
 	print("stmt()")
-	if (match(ctx, TK_IF)) {
-	    return ifStmt(ctx, cc)
-	}
-	else
-	if (match(ctx, TK_RETURN)) {
-	    return returnStmt(ctx, cc)
-	}
-	else
         if (match(ctx, TK_VAL)) {
 	    return valDefn(ctx, cc)
         }
@@ -303,24 +304,77 @@ CodeMirror.defineMode("graffiti", function() {
     }
 
     function exprStmt(ctx, cc) {
-	return callExpr(ctx, function (ctx) {
+	return expr(ctx, function (ctx) {
 	    eat(ctx, TK_DOT)
 	    cc.cls = "punc"
 	    return cc
 	})
     }
 
-    function ifStmt(ctx, cc) {
-	print("ifStmt()")
-        eat(ctx, TK_IF)
+    function condExpr(ctx, cc) {
+	print("condExpr()")
+	if (match(ctx, TK_IF)) {
+	    eat(ctx, TK_IF)
+            var ret = function (ctx) {
+		return expr(ctx, function (ctx) {
+		    print("ifStmt() looking for then")
+                    return thenClause(ctx, cc)
+		})
+            }
+	    return ret
+	}
+
+	eat(ctx, TK_CASE)
         var ret = function (ctx) {
-            return expr(ctx, function (ctx) {
-		print("ifStmt() looking for then")
-                return thenClause(ctx, cc)
-            })
+	    return expr(ctx, function (ctx) {
+		eat(ctx, TK_OF)
+		var ret = function (ctx) {
+		    return matchesClause(ctx, cc)
+		}
+		ret.cls = "keyword"
+		return ret
+	    })
         }
         ret.cls = "keyword"
         return ret
+    }
+
+
+    function matchesClause(ctx, cc) {
+	print("matchesClause()")
+        return matchClause(ctx, function (ctx) {
+	    if (match(ctx, TK_END)) {
+		eat(ctx, TK_END)
+		var ret = function (ctx) {
+		    return cc
+		}
+		ret.cls = "keyword"
+		return ret
+	    }
+	    return matchesClause(ctx, cc)
+	})
+    }
+
+    function matchClause (ctx, cc) {
+	return pattern(ctx, function (ctx) {
+	    eat(ctx, TK_EQUAL)
+	    var ret = function (ctx) {
+		return expr(ctx, function (ctx) {
+		    eat(ctx, TK_DOT)
+		    cc.cls = "punc"
+		    return cc
+		})
+	    }
+	    ret.cls = "punc"
+	    return ret
+	})
+    }
+
+    function pattern(ctx, cc) {
+	// FIXME only matches number literals for now
+	eat(ctx, TK_NUM)
+	cc.cls = "number"
+	return cc
     }
 
     function thenClause(ctx, cc) {
