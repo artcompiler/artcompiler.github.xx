@@ -35,11 +35,11 @@ input {
 </style>
 
 <p>
-This treemap shows the number of native Flash methods used by the top Flash
-video players. Selecting 'All' shows methods used by all players. Selecting a
-particular player shows data for the methods used by that player. Hovering over
-a region shows the full method name and the list of all players that use that
-method. The data can be found here: <a href="https://docs.google.com/spreadsheet/ccc?key=0AuuVIliM4oQ6dHdMNjBZLVUxcjJGQUdCbmQ5WVFaeHc#gid=42">Top 25 Flash Video Sites</a>.
+This treemap shows the number of native Flash classes used by the top Flash
+video players. Selecting 'All' shows classes used by all players. Selecting a
+particular player shows data for the classes used by that player. Hovering over
+a region shows the full class name and the list of all players that use that
+class. The data can be found here: <a href="https://docs.google.com/spreadsheet/ccc?key=0AuuVIliM4oQ6dHdMNjBZLVUxcjJGQUdCbmQ5WVFaeHc#gid=42">Top 25 Flash Video Sites</a>.
 </p>
 
 <form>
@@ -74,7 +74,7 @@ method. The data can be found here: <a href="https://docs.google.com/spreadsheet
 
 var margin = {top: 60, right: 10, bottom: 10, left: 10},
     width = 960 - margin.left - margin.right,
-    height = 680 - margin.top - margin.bottom;
+    height = 960 - margin.top - margin.bottom;
 
 var color = d3.scale.category20c();
 
