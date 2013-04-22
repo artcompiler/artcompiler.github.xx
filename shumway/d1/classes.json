@@ -1,0 +1,1880 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "",
+      "children": [
+        {
+          "name": "Array$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Array",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Class",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Math$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Number$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Object$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "QName",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "String$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "String",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "XML$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "global",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Date",
+          "sites": [
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "XML",
+          "sites": [
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.funnyordie.com",
+            "www.guardian.co.uk_video",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "Function",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.dailymotion.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "RegExp",
+          "sites": [
+            "video.foxnews.com",
+            "www.cbc.ca_player",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Error",
+          "sites": [
+            "www.bbc.co.uk"
+          ]
+        },
+        {
+          "name": "Namespace",
+          "sites": [
+            "www.cbc.ca_player",
+            "www.funnyordie.com",
+            "www.guardian.co.uk_video",
+            "www.liveleak.com",
+            "www.twitch.tv"
+          ]
+        },
+        {
+          "name": "JSON$",
+          "sites": [
+            "www.dailymotion.com"
+          ]
+        },
+        {
+          "name": "Date$",
+          "sites": [
+            "www.hulu.com",
+            "www.nbc.com_video_"
+          ]
+        },
+        {
+          "name": "Error$",
+          "sites": [
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.display",
+      "children": [
+        {
+          "name": "Bitmap",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "BitmapData",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "DisplayObject",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "DisplayObjectContainer",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Graphics",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "InteractiveObject",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Loader",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "LoaderInfo",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "MovieClip",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "NativeMenuItem",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.bbc.co.uk",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ustream.tv_new",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Shape",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SimpleButton",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "video.foxnews.com",
+            "www.nbc.com_video_",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Sprite",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Stage",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "FrameLabel",
+          "sites": [
+            "www.aljazeera.com_video_",
+            "www.cbc.ca_player",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "AVM1Movie",
+          "sites": [
+            "www.bing.com_?scope=video",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.twitch.tv"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.events",
+      "children": [
+        {
+          "name": "Event",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "EventDispatcher",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "MouseEvent",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cnn.com_video",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "TimerEvent",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.external",
+      "children": [
+        {
+          "name": "ExternalInterface$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.media",
+      "children": [
+        {
+          "name": "SoundTransform",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Video",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "StageVideo",
+          "sites": [
+            "video.foxnews.com",
+            "www.cnn.com_video",
+            "www.facebook.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SoundMixer$",
+          "sites": [
+            "www.guardian.co.uk_video"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.net",
+      "children": [
+        {
+          "name": "LocalConnection",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "NetConnection",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "NetStream",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Responder",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SharedObject$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SharedObject",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "URLRequest",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "URLStream",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Socket",
+          "sites": [
+            "video.foxnews.com",
+            "www.twitch.tv"
+          ]
+        },
+        {
+          "name": "NetConnection$",
+          "sites": [
+            "www.hulu.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.system",
+      "children": [
+        {
+          "name": "ApplicationDomain$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "ApplicationDomain",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Capabilities$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Security$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SecurityDomain$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "SecurityDomain",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "System$",
+          "sites": [
+            "live.wsj.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.funnyordie.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.nbc.com_video_",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.text",
+      "children": [
+        {
+          "name": "StyleSheet",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.cnn.com_video",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.twitch.tv"
+          ]
+        },
+        {
+          "name": "TextField",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "TextFormat",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Font$",
+          "sites": [
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.hulu.com",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "Font",
+          "sites": [
+            "live.wsj.com",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.hulu.com",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.ui",
+      "children": [
+        {
+          "name": "ContextMenu",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "ContextMenuItem",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.bbc.co.uk",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ustream.tv_new",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Mouse$",
+          "sites": [
+            "vimeo.com",
+            "www.bbc.co.uk",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.youtube.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.utils",
+      "children": [
+        {
+          "name": "ByteArray",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Dictionary",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "Timer",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.cbc.ca_player",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.facebook.com",
+            "www.funnyordie.com",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.xml",
+      "children": [
+        {
+          "name": "XMLNode$",
+          "sites": [
+            "beta.abc.go.com_shows",
+            "movies.uk.msn.com",
+            "www.aljazeera.com_video_",
+            "www.bing.com_?scope=video",
+            "www.cnn.com_video",
+            "www.nbc.com_video_",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.geom",
+      "children": [
+        {
+          "name": "Transform",
+          "sites": [
+            "live.wsj.com",
+            "movies.uk.msn.com",
+            "vimeo.com",
+            "www.aljazeera.com_video_",
+            "www.bing.com_?scope=video",
+            "www.cnn.com_video",
+            "www.dailymotion.com",
+            "www.funnyordie.com",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.net.drm",
+      "children": [
+        {
+          "name": "DRMManager$",
+          "sites": [
+            "live.wsj.com",
+            "video.foxnews.com",
+            "www.funnyordie.com",
+            "www.nbc.com_video_"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.filters",
+      "children": [
+        {
+          "name": "GlowFilter",
+          "sites": [
+            "movies.uk.msn.com",
+            "video.foxnews.com",
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk",
+            "www.bing.com_?scope=video",
+            "www.funnyordie.com",
+            "www.hulu.com",
+            "www.ted.com",
+            "www.ustream.tv_new",
+            "www.vevo.com",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "DropShadowFilter",
+          "sites": [
+            "video.foxnews.com",
+            "vimeo.com",
+            "www.cnn.com_video",
+            "www.grindtv.com",
+            "www.guardian.co.uk_video",
+            "www.hulu.com",
+            "www.liveleak.com",
+            "www.nbc.com_video_",
+            "www.ted.com",
+            "www.twitch.tv",
+            "www.ustream.tv_new",
+            "www.youtube.com"
+          ]
+        },
+        {
+          "name": "BlurFilter",
+          "sites": [
+            "www.aljazeera.com_video_",
+            "www.guardian.co.uk_video",
+            "www.ustream.tv_new"
+          ]
+        },
+        {
+          "name": "ColorMatrixFilter",
+          "sites": [
+            "www.cbc.ca_player"
+          ]
+        },
+        {
+          "name": "BevelFilter",
+          "sites": [
+            "www.hulu.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.text.engine",
+      "children": [
+        {
+          "name": "ContentElement",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "EastAsianJustifier",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "ElementFormat",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "FontDescription",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "SpaceJustifier",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "TextBlock",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "TextElement",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "TextJustifier",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "TextLine",
+          "sites": [
+            "movies.uk.msn.com",
+            "www.bing.com_?scope=video",
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        },
+        {
+          "name": "FontDescription$",
+          "sites": [
+            "www.ted.com",
+            "www.vevo.com"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.accessibility",
+      "children": [
+        {
+          "name": "Accessibility$",
+          "sites": [
+            "www.aljazeera.com_video_",
+            "www.bbc.co.uk"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flash.globalization",
+      "children": [
+        {
+          "name": "DateTimeFormatter",
+          "sites": [
+            "www.nbc.com_video_"
+          ]
+        }
+      ]
+    }
+  ]
+}

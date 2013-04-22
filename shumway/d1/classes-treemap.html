@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
+}
+
+p {
+  font: 12px sans-serif;
+}
+
+form {
+  position: absolute;
+  top: 50px;
+  font: 10px sans-serif;
+}
+
+input {
+  width: 8px;
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+</style>
+
+<p>
+This treemap shows the number of native Flash methods used by the top Flash
+video players. Selecting 'All' shows methods used by all players. Selecting a
+particular player shows data for the methods used by that player. Hovering over
+a region shows the full method name and the list of all players that use that
+method. The data can be found here: <a href="https://docs.google.com/spreadsheet/ccc?key=0AuuVIliM4oQ6dHdMNjBZLVUxcjJGQUdCbmQ5WVFaeHc#gid=42">Top 25 Flash Video Sites</a>.
+</p>
+
+<form>
+  <label><input type="radio" name="mode" value="all" checked>All</label>
+  <label><input type="radio" name="mode" value="beta.abc.go.com_shows">ABC</label>
+  <label><input type="radio" name="mode" value="live.wsj.com">WSJ</label>
+  <label><input type="radio" name="mode" value="movies.uk.msn.com">MSN UK</label>
+  <label><input type="radio" name="mode" value="video.foxnews.com">FoxNews</label>
+  <label><input type="radio" name="mode" value="vimeo.com">Vimeo</label>
+  <label><input type="radio" name="mode" value="www.aljazeera.com_video_">Aljazeera</label>
+  <label><input type="radio" name="mode" value="www.bbc.co.uk">BBC</label>
+  <label><input type="radio" name="mode" value="www.bing.com_?scope=video">Bing</label>
+  <label><input type="radio" name="mode" value="www.cbc.ca_player">CBC</label>
+  <label><input type="radio" name="mode" value="www.cnn.com_video">CNN</label>
+  <label><input type="radio" name="mode" value="www.dailymotion.com">DailyMotion</label>
+  <label><input type="radio" name="mode" value="www.facebook.com">Facebook</label>
+<br>
+  <label><input type="radio" name="mode" value="www.funnyordie.com">FunnyOrDie</label>
+  <label><input type="radio" name="mode" value="www.grindtv.com">GrindTV</label>
+  <label><input type="radio" name="mode" value="www.guardian.co.uk_video">Guardian</label>
+  <label><input type="radio" name="mode" value="www.hulu.com">Hulu</label>
+  <label><input type="radio" name="mode" value="www.liveleak.com">LiveLeak</label>
+  <label><input type="radio" name="mode" value="www.nbc.com_video_">NBC</label>
+  <label><input type="radio" name="mode" value="www.ted.com">TED</label>
+  <label><input type="radio" name="mode" value="www.twitch.tv">TwitchTV</label>
+  <label><input type="radio" name="mode" value="www.ustream.tv_new">UStream</label>
+  <label><input type="radio" name="mode" value="www.vevo.com">Vevo</label>
+  <label><input type="radio" name="mode" value="www.youtube.com">YouTube</label>
+</form>
+<script src="d3.min.js"></script>
+<script>
+
+var margin = {top: 60, right: 10, bottom: 10, left: 10},
+    width = 960 - margin.left - margin.right,
+    height = 680 - margin.top - margin.bottom;
+
+var color = d3.scale.category20c();
+
+var treemap = d3.layout.treemap()
+    .size([width, height])
+    .sticky(true)
+    .value(function(d) { return d.sites.length; });
+
+var div = d3.select("body").append("div")
+    .style("position", "relative")
+    .style("width", (width + margin.left + margin.right) + "px")
+    .style("height", (height + margin.top + margin.bottom) + "px")
+    .style("left", margin.left + "px")
+    .style("top", margin.top + "px");
+
+d3.json("classes.json", function(error, root) {
+  var node = div.datum(root).selectAll(".node")
+      .data(treemap.nodes)
+    .enter().append("div")
+      .attr("class", "node")
+      .attr("title", function(d) {
+         return d.children ? null : d.parent.parent.name + "::" + d.parent.name + "/" + d.name + "\n\n" + d.sites.join("\n");
+      })
+      .call(position)
+      .style("background", function(d) { return d.children ? color(d.name) : null; })
+      .text(function(d) { return d.children ? null : d.name; });
+
+  d3.selectAll("input").on("change", function change() {
+    var outerThis = this;
+    var value = this.value !== "all"
+        ? function(d) { 
+            return d.sites.indexOf(outerThis.value) !== -1 ? d.sites.length : 0;
+          }
+        : function(d) { return d.sites.length; };
+
+    node
+        .data(treemap.value(value).nodes)
+      .transition()
+        .duration(1500)
+        .call(position);
+  });
+});
+
+function position() {
+  this.style("left", function(d) { return d.x + "px"; })
+      .style("top", function(d) { return d.y + "px"; })
+      .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
+      .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
+}
+
+</script>
