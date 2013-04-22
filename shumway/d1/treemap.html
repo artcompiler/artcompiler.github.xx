@@ -9,10 +9,13 @@ body {
   width: 960px;
 }
 
+p {
+  font: 12px sans-serif;
+}
+
 form {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  top: 40px;
   font: 10px sans-serif;
 }
 
@@ -31,11 +34,19 @@ input {
 
 </style>
 
+<p>
+This treemap shows the number of native Flash methods used by the top Flash
+video players. Selecting 'All' shows methods used by all players. Selecting a
+particular player shows data for the methods used by that player. Hovering over
+a region shows the full method name and the list of all players that use that
+method.
+</p>
+
 <form>
   <label><input type="radio" name="mode" value="all" checked>All</label>
   <label><input type="radio" name="mode" value="beta.abc.go.com_shows">ABC</label>
   <label><input type="radio" name="mode" value="live.wsj.com">WSJ</label>
-  <label><input type="radio" name="mode" value="movies.uk.msn.com">ukMSN</label>
+  <label><input type="radio" name="mode" value="movies.uk.msn.com">MSN UK</label>
   <label><input type="radio" name="mode" value="video.foxnews.com">FoxNews</label>
   <label><input type="radio" name="mode" value="vimeo.com">Vimeo</label>
   <label><input type="radio" name="mode" value="www.aljazeera.com_video_">Aljazeera</label>
@@ -45,6 +56,7 @@ input {
   <label><input type="radio" name="mode" value="www.cnn.com_video">CNN</label>
   <label><input type="radio" name="mode" value="www.dailymotion.com">DailyMotion</label>
   <label><input type="radio" name="mode" value="www.facebook.com">Facebook</label>
+<br>
   <label><input type="radio" name="mode" value="www.funnyordie.com">FunnyOrDie</label>
   <label><input type="radio" name="mode" value="www.grindtv.com">GrindTV</label>
   <label><input type="radio" name="mode" value="www.guardian.co.uk_video">Guardian</label>
@@ -62,7 +74,7 @@ input {
 
 var margin = {top: 60, right: 10, bottom: 10, left: 10},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 960 - margin.top - margin.bottom;
 
 var color = d3.scale.category20c();
 
