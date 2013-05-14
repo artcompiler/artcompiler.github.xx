@@ -5,34 +5,51 @@ var redraw;
 (function () {
   var diameter = 1200;
 
+  var sites = [
+    "www.youtube.com",
+    "beta.abc.go.com_shows",
+    "live.wsj.com",
+    "movies.uk.msn.com",
+    "video.foxnews.com",
+    "vimeo.com",
+    "www.aljazeera.com_video_",
+    "www.bbc.co.uk",
+    "www.bing.com_?scope=video",
+    "www.cbc.ca_player",
+    "www.cnn.com_video",
+    "www.dailymotion.com",
+    "www.funnyordie.com",
+    "www.grindtv.com",
+    "www.guardian.co.uk_video",
+    "www.hulu.com",
+    "www.liveleak.com",
+    "www.nbc.com_video_",
+    "www.ted.com",
+    "www.twitch.tv",
+    "www.ustream.tv_new",
+    "www.vevo.com",
+    "www.facebook.com",
+  ];
 
-var sites = [
-  "www.youtube.com",
-  "beta.abc.go.com_shows",
-  "live.wsj.com",
-  "movies.uk.msn.com",
-  "video.foxnews.com",
-  "vimeo.com",
-  "www.aljazeera.com_video_",
-  "www.bbc.co.uk",
-  "www.bing.com_?scope=video",
-  "www.cbc.ca_player",
-  "www.cnn.com_video",
-  "www.dailymotion.com",
-  "www.funnyordie.com",
-  "www.grindtv.com",
-  "www.guardian.co.uk_video",
-  "www.hulu.com",
-  "www.liveleak.com",
-  "www.nbc.com_video_",
-  "www.ted.com",
-  "www.twitch.tv",
-  "www.ustream.tv_new",
-  "www.vevo.com",
-  "www.facebook.com",
-];
+  var chooserText = [
+    "This page shows the Shumway implementation status for the native Flash APIs ",
+    "used by the top video sites. Choose a video site to see the status of the ",
+    "Shumway implementation. The source code can be found here: ",
+    "<a href='https://github.com/artcompiler/P105'>https://github.com/artcompiler/P105</a>. ",
+    "<b>Warning:</b> The data used to derive this graph is a rough ",
+    "approximation of reality. We plan to automate the data collection from unit ",
+    "tests to make the data more timely and accurate.",
+    ].join("");
 
-  var tr = d3.select(".chooser").selectAll("span").data(sites).enter().append("span")
+  var tr = d3.select(".chooser").selectAll("p")
+      .data([1])
+    .enter().append("p")
+      .attr("class", "chooser-text")
+      .html(chooserText);
+
+  var tr = d3.select(".chooser").selectAll("span").data(sites).enter()
+    .append("span")
+    .attr("class", "chooser-item");
  
   tr.append("input")
       .attr("type", "radio")
@@ -62,6 +79,7 @@ var sites = [
     d3.select("body").selectAll("svg").remove();
 
     svg = d3.select("body").append("svg")
+    .attr("class", "graph")
     .attr("width", diameter)
     .attr("height", diameter)
     .append("g")
@@ -88,7 +106,6 @@ var sites = [
 
     link.exit().remove()
 
-
     var node = svg.selectAll(".node")
       .data(nodes)
 
@@ -99,13 +116,13 @@ var sites = [
     var red = "rgb(246, 21, 49)";
     var yellow = "rgb(255, 199, 11)";
     var blue = "rgb(0, 92, 173)";
-
+    var green = "rgb(55, 135, 98)";
     enter.append("circle")
       .attr("r", 3.5)
       .style("fill", function (d) {
         var rgb;
         if (d.status == 1) {
-          return blue;
+          return green;
         } else if (d.status < .1) {
           return red;
         }
@@ -114,7 +131,7 @@ var sites = [
       .style("stroke", function (d) {
         var rgb;
         if (d.status == 1) {
-          return blue;
+          return green;
         } else if (d.status < .1) {
           return red;
         }

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<head>
+<title>Shumway Implementation Status</title>
 <style>
 
 body {
@@ -32,19 +34,33 @@ span {
 }
 
 .chooser {
+  width: 1000px;
   border: 1px solid;
   box-shadow: 5px 5px 5px #888;
   padding: 10px;
+  position: absolute;
+  left: 100px;
+}
+
+.chooser-text {
+  font: 14px sans-serif;
+  line-height: 125%;
 }
 
 .title {
   position: absolute;
-  top: 125px;
+  top: 215px;
   font: 18px sans-serif;
   color: #555;
+  text-align: center;
 }
 
+.graph {
+  position: absolute;
+  top: 215px;
+}
 </style>
+</head>
 <body>
 <div class="chooser"/>
 <div class="title"><text/></div>
