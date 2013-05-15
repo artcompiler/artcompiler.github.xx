@@ -31,10 +31,18 @@ var redraw;
     "www.facebook.com",
   ];
 
+  var red = "rgb(246, 21, 49)";
+  var yellow = "rgb(255, 199, 11)";
+  var blue = "rgb(0, 92, 173)";
+  var green = "rgb(55, 135, 98)";
+
   var chooserText = [
-    "This page shows the Shumway implementation status for the native Flash APIs ",
-    "used by the top video sites. Choose a video site to see the status of the ",
-    "Shumway implementation. The source code can be found here: ",
+    "<b>This page shows the Shumway implementation status for the native Flash APIs ",
+    "used by the top video sites.</b> Choose a video site to see the status of the ",
+    "Shumway implementation. <font class='green'>Green is good</font>. ",
+    "<font class='red'>Red is bad</font>. <font class='orange'>Orange is ",
+    "somewhere in between</font>. (% indicates completion rate, if not 100%, 50% or >10%.)",
+    "The source code can be found here: ",
     "<a href='https://github.com/artcompiler/P105'>https://github.com/artcompiler/P105</a>. ",
     "<b>Warning:</b> The data used to derive this graph is a rough ",
     "approximation of reality. We plan to automate the data collection from unit ",
@@ -113,10 +121,6 @@ var redraw;
       .attr("class", "node")
       .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ") translate(" + d.y + ")"; })
 
-    var red = "rgb(246, 21, 49)";
-    var yellow = "rgb(255, 199, 11)";
-    var blue = "rgb(0, 92, 173)";
-    var green = "rgb(55, 135, 98)";
     enter.append("circle")
       .attr("r", 3.5)
       .style("fill", function (d) {
