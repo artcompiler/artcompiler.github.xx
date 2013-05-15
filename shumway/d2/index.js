@@ -44,9 +44,9 @@ var redraw;
     "somewhere in between</font>. (% indicates completion rate, if not 100%, 50% or >10%.)",
     "The source code can be found here: ",
     "<a href='https://github.com/artcompiler/P105'>https://github.com/artcompiler/P105</a>. ",
-    "<b>Warning:</b> The data used to derive this graph is a rough ",
+    "</p><p><b>Warning:</b> The data used to derive this graph is a rough ",
     "approximation of reality. We plan to automate the data collection from unit ",
-    "tests to make the data more timely and accurate.",
+    "tests to make it more timely and accurate.</p>",
     ].join("");
 
   var tr = d3.select(".chooser").selectAll("p")
