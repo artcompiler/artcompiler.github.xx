@@ -11147,7 +11147,7 @@
                 "www.ustream.tv_new",
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get textHeight",
@@ -11364,7 +11364,7 @@
                 "www.facebook.com",
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set textColor",

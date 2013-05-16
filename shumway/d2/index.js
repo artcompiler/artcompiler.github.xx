@@ -211,12 +211,13 @@ var redraw;
           var children = n.children;
           var self = this;
           var children = [];
+          var count = 0;
           n.children.forEach(function (v, i) {
             var c = visit(v, self);
             if (c) {
               children.push(c);
               var status = n.status ? n.status : 0;
-              n.status = (status * i + +c.status) / (i + 1);
+              n.status = (status * count + +c.status) / (count++ + 1);
             }
           });
           if (children.length > 0) {
