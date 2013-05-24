@@ -40,7 +40,8 @@ var redraw;
   var chooserText = [
     "<b>This page shows the Shumway implementation status for the native Flash APIs ",
     "used by the top video sites.</b> Choose a video site to see the status of the ",
-    "Shumway implementation. <font class='green'>Green is good</font>. ",
+    "Shumway implementation. <font class='grey'>Grey means not tested</font>. ",
+    "<font class='green'>Green is good</font>. ",
     "<font class='red'>Red is bad</font>. <font class='yellow'>Yellow is ",
     "somewhere in between</font>. (% indicates completion rate, if not 100%, 50% or >10%.)",
     "The source code can be found here: ",
