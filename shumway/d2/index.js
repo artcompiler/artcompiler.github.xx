@@ -31,6 +31,7 @@ var redraw;
     "www.facebook.com",
   ];
 
+  var grey = "#aaa";
   var red = "rgb(246, 21, 49)";
   var yellow = "rgb(255, 199, 11)";
   var blue = "rgb(0, 92, 173)";
@@ -127,6 +128,8 @@ var redraw;
         var rgb;
         if (d.status == 1) {
           return green;
+        } else if (d.status == 0) {
+          return grey;
         } else if (d.status < .1) {
           return red;
         }
@@ -136,6 +139,8 @@ var redraw;
         var rgb;
         if (d.status == 1) {
           return green;
+        } else if (d.status == 0) {
+          return grey;
         } else if (d.status < .1) {
           return red;
         }
@@ -143,7 +148,7 @@ var redraw;
       })
       .attr("title", function(d) {
         var status = d.status;
-        if (status < 1 && status > 0 && status != .5) {
+        if (status < 1 && status > 0.1 && status != .5) {
           status = " " + Math.round(d.status * 100) + "%";
         } else {
           status = "";
@@ -158,7 +163,7 @@ var redraw;
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180) translate(-8)"; })
       .text(function(d) {
         var status = d.status;
-        if (status < 1 && status > 0 && status != .5) {
+        if (status < 1 && status > 0.1 && status != .5) {
           status = Math.round(d.status * 100) + "%";
         } else {
           status = "";
