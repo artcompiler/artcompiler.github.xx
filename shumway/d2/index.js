@@ -7,6 +7,7 @@ var redraw;
 
   var sites = [
     "www.youtube.com",
+/*
     "beta.abc.go.com_shows",
     "live.wsj.com",
     "movies.uk.msn.com",
@@ -29,6 +30,7 @@ var redraw;
     "www.ustream.tv_new",
     "www.vevo.com",
     "www.facebook.com",
+*/
   ];
 
   var grey = "#aaa";
