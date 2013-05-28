@@ -623,77 +623,77 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "beginGradientFill",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "clear",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "drawCircle",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "drawRect",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "drawRoundRect",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "endFill",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "lineGradientStyle",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "lineStyle",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "lineTo",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "moveTo",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
