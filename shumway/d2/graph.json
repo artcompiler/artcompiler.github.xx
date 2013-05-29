@@ -335,7 +335,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get parent",
@@ -475,7 +475,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set scaleX",
@@ -536,70 +536,70 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "contains",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get numChildren",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "getChildAt",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "getChildByName",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "getChildIndex",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "removeChild",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "removeChildAt",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set mouseChildren",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set tabChildren",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             }
           ]
         },
@@ -705,42 +705,42 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set contextMenu",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set doubleClickEnabled",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set mouseEnabled",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set tabEnabled",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "set tabIndex",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             }
           ]
         },
@@ -773,7 +773,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
@@ -785,70 +785,70 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get applicationDomain",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get content",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get frameRate",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get loader",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get loaderURL",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get parameters",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get sharedEvents",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get uncaughtErrorEvents",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get url",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -931,7 +931,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
@@ -943,35 +943,35 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set hitTestState",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set overState",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set upState",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set useHandCursor",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -983,7 +983,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set buttonMode",
