@@ -752,21 +752,21 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get contentLoaderInfo",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get uncaughtErrorEvents",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "load",
@@ -1009,7 +1009,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "dispatchEvent",
@@ -1023,63 +1023,63 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get focus",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get frameRate",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get stageHeight",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get stageVideos",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get stageWidth",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set align",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set frameRate",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set scaleMode",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         }
