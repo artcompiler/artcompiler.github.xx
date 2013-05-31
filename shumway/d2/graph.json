@@ -1016,7 +1016,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get displayState",
@@ -1566,14 +1566,14 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "createGradientBox",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -1585,7 +1585,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -1597,42 +1597,42 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "equals",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get bottom",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get left",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get right",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get top",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -1644,7 +1644,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "1"
+              "status": "0"
             }
           ]
         }
@@ -2161,21 +2161,21 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "allowInsecureDomain",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "get sandboxType",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
@@ -2187,7 +2187,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -2199,14 +2199,14 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get totalMemoryNumber",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         }
