@@ -2055,7 +2055,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -2067,14 +2067,14 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "hasDefinition",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -2086,70 +2086,70 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get isDebugger",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get language",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get manufacturer",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get os",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get playerType",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get screenResolutionX",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get screenResolutionY",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get serverString",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.5"
             },
             {
               "name": "get version",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
