@@ -1920,14 +1920,14 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set defaultObjectEncoding",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
@@ -1939,7 +1939,7 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
@@ -1951,14 +1951,14 @@
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "load",
               "sites": [
                 "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
