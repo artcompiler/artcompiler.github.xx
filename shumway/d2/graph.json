@@ -10,6 +10,8 @@
             {
               "name": "get length",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -17,6 +19,8 @@
             {
               "name": "set length",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -29,6 +33,8 @@
             {
               "name": "get prototype",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -39,8 +45,17 @@
           "name": "Date",
           "children": [
             {
+              "name": "get milliseconds",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get time",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -53,6 +68,8 @@
             {
               "name": "abs",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -60,6 +77,8 @@
             {
               "name": "ceil",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -67,6 +86,7 @@
             {
               "name": "cos",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -74,6 +94,8 @@
             {
               "name": "floor",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -81,6 +103,7 @@
             {
               "name": "min",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -88,6 +111,8 @@
             {
               "name": "pow",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -95,6 +120,8 @@
             {
               "name": "random",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -102,6 +129,8 @@
             {
               "name": "round",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -109,6 +138,7 @@
             {
               "name": "sin",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -116,9 +146,23 @@
             {
               "name": "sqrt",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
+            }
+          ]
+        },
+        {
+          "name": "Namespace",
+          "children": [
+            {
+              "name": "get prefix",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
             }
           ]
         },
@@ -128,6 +172,8 @@
             {
               "name": "get localName",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -135,18 +181,8 @@
             {
               "name": "get uri",
               "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            }
-          ]
-        },
-        {
-          "name": "RegExp",
-          "children": [
-            {
-              "name": "set lastIndex",
-              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -159,6 +195,8 @@
             {
               "name": "get length",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -171,6 +209,8 @@
             {
               "name": "get ignoreWhitespace",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -178,6 +218,8 @@
             {
               "name": "set ignoreWhitespace",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -187,6 +229,95 @@
         {
           "name": "global",
           "children": [
+            {
+              "name": "bugzilla",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "decodeURI",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "encodeURI",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "encodeURIComponent",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "escape",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "isFinite",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "isNaN",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "parseInt",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "trace",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "unescape",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "parseFloat",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
             {
               "name": "decodeURIComponent",
               "sites": [
@@ -202,63 +333,19 @@
               "status": "0.5"
             },
             {
-              "name": "encodeURIComponent",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "escape",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
               "name": "getQualifiedClassName",
               "sites": [
                 "www.youtube.com"
               ],
               "status": "0"
-            },
+            }
+          ]
+        },
+        {
+          "name": "RegExp",
+          "children": [
             {
-              "name": "isFinite",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "isNaN",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "parseFloat",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "parseInt",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "trace",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "unescape",
+              "name": "set lastIndex",
               "sites": [
                 "www.youtube.com"
               ],
@@ -272,11 +359,25 @@
       "name": "flash.display",
       "children": [
         {
+          "name": "Bitmap",
+          "children": [
+            {
+              "name": "set smoothing",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
           "name": "DisplayObject",
           "children": [
             {
               "name": "get accessibilityProperties",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -284,13 +385,23 @@
             {
               "name": "get alpha",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "get cacheAsBitmap",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get filters",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -298,6 +409,8 @@
             {
               "name": "get height",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -305,6 +418,8 @@
             {
               "name": "get loaderInfo",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -312,13 +427,267 @@
             {
               "name": "get mask",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
             },
             {
+              "name": "get name",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get opaqueBackground",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get parent",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get root",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get rotation",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get scaleX",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get scaleY",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get stage",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get transform",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "get visible",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get width",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "get x",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get y",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set accessibilityProperties",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set alpha",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set cacheAsBitmap",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set filters",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set height",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set mask",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set name",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set opaqueBackground",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set rotation",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set scaleX",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set scaleY",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set scrollRect",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set transform",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set visible",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set width",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set x",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set y",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
               "name": "get mouseX",
               "sites": [
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -331,88 +700,11 @@
               "status": "1"
             },
             {
-              "name": "get name",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get parent",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get root",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get scaleX",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get scaleY",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
               "name": "get scrollRect",
               "sites": [
                 "www.youtube.com"
               ],
               "status": "0"
-            },
-            {
-              "name": "get stage",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "get transform",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "get visible",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get width",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "get x",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get y",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             },
             {
               "name": "getBounds",
@@ -427,97 +719,6 @@
                 "www.youtube.com"
               ],
               "status": "0"
-            },
-            {
-              "name": "set accessibilityProperties",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set alpha",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set cacheAsBitmap",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set filters",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set height",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set mask",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set name",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set scaleX",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set scaleY",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set visible",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set width",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set x",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set y",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             }
           ]
         },
@@ -527,6 +728,8 @@
             {
               "name": "addChild",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -534,6 +737,7 @@
             {
               "name": "addChildAt",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -541,6 +745,8 @@
             {
               "name": "contains",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -548,13 +754,24 @@
             {
               "name": "get numChildren",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "get tabChildren",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "getChildAt",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -562,6 +779,8 @@
             {
               "name": "getChildByName",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -569,6 +788,8 @@
             {
               "name": "getChildIndex",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -576,6 +797,8 @@
             {
               "name": "removeChild",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -583,6 +806,8 @@
             {
               "name": "removeChildAt",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -590,6 +815,8 @@
             {
               "name": "set mouseChildren",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -597,19 +824,22 @@
             {
               "name": "set tabChildren",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
-            }
-          ]
-        },
-        {
-          "name": "FrameLabel",
-          "children": [
+            },
             {
-              "name": "get name",
+              "name": "setChildIndex",
               "sites": [
-                "www.youtube.com"
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "swapChildren",
+              "sites": [
+                "www.vimeo.com"
               ],
               "status": "0"
             }
@@ -621,6 +851,8 @@
             {
               "name": "beginFill",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -628,13 +860,73 @@
             {
               "name": "beginGradientFill",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
             },
             {
+              "name": "drawRect",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "endFill",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "lineStyle",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "beginBitmapFill",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "clear",
               "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "drawRoundRect",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "lineTo",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "moveTo",
+              "sites": [
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -647,53 +939,11 @@
               "status": "0.01"
             },
             {
-              "name": "drawRect",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "drawRoundRect",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "endFill",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
               "name": "lineGradientStyle",
               "sites": [
                 "www.youtube.com"
               ],
               "status": "0.01"
-            },
-            {
-              "name": "lineStyle",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "lineTo",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "moveTo",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             }
           ]
         },
@@ -703,6 +953,7 @@
             {
               "name": "get tabEnabled",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -710,20 +961,24 @@
             {
               "name": "set contextMenu",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
             },
             {
-              "name": "set doubleClickEnabled",
+              "name": "set focusRect",
               "sites": [
-                "www.youtube.com"
+                "www.funnyordie.com"
               ],
-              "status": "0.5"
+              "status": "0"
             },
             {
               "name": "set mouseEnabled",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -731,12 +986,21 @@
             {
               "name": "set tabEnabled",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
             },
             {
               "name": "set tabIndex",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0.5"
+            },
+            {
+              "name": "set doubleClickEnabled",
               "sites": [
                 "www.youtube.com"
               ],
@@ -748,6 +1012,40 @@
           "name": "Loader",
           "children": [
             {
+              "name": "close",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get contentLoaderInfo",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "load",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "unload",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get content",
               "sites": [
                 "www.youtube.com"
@@ -755,21 +1053,7 @@
               "status": "1"
             },
             {
-              "name": "get contentLoaderInfo",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
               "name": "get uncaughtErrorEvents",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "load",
               "sites": [
                 "www.youtube.com"
               ],
@@ -781,15 +1065,10 @@
           "name": "LoaderInfo",
           "children": [
             {
-              "name": "get actionScriptVersion",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
               "name": "get applicationDomain",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -797,9 +1076,45 @@
             {
               "name": "get content",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
+            },
+            {
+              "name": "get loader",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get parameters",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get url",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "get actionScriptVersion",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "0.01"
             },
             {
               "name": "get frameRate",
@@ -809,25 +1124,11 @@
               "status": "0.01"
             },
             {
-              "name": "get loader",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
               "name": "get loaderURL",
               "sites": [
                 "www.youtube.com"
               ],
               "status": "0.01"
-            },
-            {
-              "name": "get parameters",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             },
             {
               "name": "get sharedEvents",
@@ -842,13 +1143,6 @@
                 "www.youtube.com"
               ],
               "status": "0.01"
-            },
-            {
-              "name": "get url",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
             }
           ]
         },
@@ -858,6 +1152,30 @@
             {
               "name": "addFrameScript",
               "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "gotoAndPlay",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "gotoAndStop",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "stop",
+              "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -882,20 +1200,6 @@
                 "www.youtube.com"
               ],
               "status": "0"
-            },
-            {
-              "name": "gotoAndStop",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "stop",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
             }
           ]
         },
@@ -904,6 +1208,193 @@
           "children": [
             {
               "name": "set enabled",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "Shape",
+          "children": [
+            {
+              "name": "get graphics",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            }
+          ]
+        },
+        {
+          "name": "Sprite",
+          "children": [
+            {
+              "name": "get graphics",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set buttonMode",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set useHandCursor",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set hitArea",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "Stage",
+          "children": [
+            {
+              "name": "addEventListener",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get displayState",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get numChildren",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get stageHeight",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get stageWidth",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "invalidate",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set align",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set scaleMode",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get stageVideos",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "dispatchEvent",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get focus",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get frameRate",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "set frameRate",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "1"
+            }
+          ]
+        },
+        {
+          "name": "BitmapData",
+          "children": [
+            {
+              "name": "draw",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "FrameLabel",
+          "children": [
+            {
+              "name": "get name",
               "sites": [
                 "www.youtube.com"
               ],
@@ -920,18 +1411,6 @@
                 "www.youtube.com"
               ],
               "status": "0"
-            }
-          ]
-        },
-        {
-          "name": "Shape",
-          "children": [
-            {
-              "name": "get graphics",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             }
           ]
         },
@@ -974,114 +1453,6 @@
               "status": "0.01"
             }
           ]
-        },
-        {
-          "name": "Sprite",
-          "children": [
-            {
-              "name": "get graphics",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set buttonMode",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set useHandCursor",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            }
-          ]
-        },
-        {
-          "name": "Stage",
-          "children": [
-            {
-              "name": "addEventListener",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "dispatchEvent",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get displayState",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get focus",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get frameRate",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get stageHeight",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get stageVideos",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get stageWidth",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set align",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set frameRate",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "set scaleMode",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            }
-          ]
         }
       ]
     },
@@ -1091,6 +1462,13 @@
         {
           "name": "ErrorEvent",
           "children": [
+            {
+              "name": "get errorID",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
             {
               "name": "clone",
               "sites": [
@@ -1106,13 +1484,24 @@
             {
               "name": "clone",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "formatToString",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
             {
               "name": "get bubbles",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1120,13 +1509,25 @@
             {
               "name": "get cancelable",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get eventPhase",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
             {
               "name": "",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1134,7 +1535,23 @@
             {
               "name": "get type",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "preventDefault",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "stopImmediatePropagation",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
@@ -1160,6 +1577,8 @@
             {
               "name": "addEventListener",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1167,13 +1586,8 @@
             {
               "name": "dispatchEvent",
               "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "hasEventListener",
-              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1181,12 +1595,22 @@
             {
               "name": "removeEventListener",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
             },
             {
               "name": "toString",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "hasEventListener",
               "sites": [
                 "www.youtube.com"
               ],
@@ -1200,6 +1624,8 @@
             {
               "name": "clone",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1207,6 +1633,8 @@
             {
               "name": "get responseHeaders",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1214,6 +1642,8 @@
             {
               "name": "get responseURL",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1221,6 +1651,8 @@
             {
               "name": "get status",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1228,6 +1660,8 @@
             {
               "name": "set responseHeaders",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1235,7 +1669,21 @@
             {
               "name": "set responseURL",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "IOErrorEvent",
+          "children": [
+            {
+              "name": "toString",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             }
@@ -1247,6 +1695,8 @@
             {
               "name": "set localX",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1254,7 +1704,37 @@
             {
               "name": "set localY",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "clone",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get localX",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get localY",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "updateAfterEvent",
+              "sites": [
+                "www.vimeo.com"
               ],
               "status": "0"
             }
@@ -1266,6 +1746,8 @@
             {
               "name": "get info",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1278,6 +1760,8 @@
             {
               "name": "clone",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1285,6 +1769,8 @@
             {
               "name": "get bytesLoaded",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1292,6 +1778,8 @@
             {
               "name": "get bytesTotal",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1306,11 +1794,50 @@
           ]
         },
         {
+          "name": "SecurityErrorEvent",
+          "children": [
+            {
+              "name": "clone",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "StatusEvent",
+          "children": [
+            {
+              "name": "get level",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "TextEvent",
+          "children": [
+            {
+              "name": "get text",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
           "name": "StageVideoAvailabilityEvent",
           "children": [
             {
               "name": "get availability",
               "sites": [
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1322,18 +1849,6 @@
           "children": [
             {
               "name": "get status",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            }
-          ]
-        },
-        {
-          "name": "TextEvent",
-          "children": [
-            {
-              "name": "get text",
               "sites": [
                 "www.youtube.com"
               ],
@@ -1352,6 +1867,8 @@
             {
               "name": "addCallback",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1359,6 +1876,8 @@
             {
               "name": "call",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1366,6 +1885,8 @@
             {
               "name": "get available",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1373,6 +1894,8 @@
             {
               "name": "get objectID",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1384,6 +1907,168 @@
     {
       "name": "flash.filters",
       "children": [
+        {
+          "name": "GlowFilter",
+          "children": [
+            {
+              "name": "set alpha",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set blurX",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set blurY",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set color",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set inner",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set knockout",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set quality",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set strength",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "DropShadowFilter",
+          "children": [
+            {
+              "name": "set alpha",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set angle",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set blurX",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set blurY",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set color",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set distance",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set hideObject",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set inner",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set knockout",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set quality",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set strength",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
         {
           "name": "BlurFilter",
           "children": [
@@ -1409,149 +2094,6 @@
               "status": "0"
             }
           ]
-        },
-        {
-          "name": "DropShadowFilter",
-          "children": [
-            {
-              "name": "set alpha",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set angle",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set blurX",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set blurY",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set color",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set distance",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set hideObject",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set inner",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set knockout",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set quality",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set strength",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            }
-          ]
-        },
-        {
-          "name": "GlowFilter",
-          "children": [
-            {
-              "name": "set alpha",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set blurX",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set blurY",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set color",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set inner",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set knockout",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set quality",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set strength",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            }
-          ]
         }
       ]
     },
@@ -1559,11 +2101,25 @@
       "name": "flash.geom",
       "children": [
         {
+          "name": "ColorTransform",
+          "children": [
+            {
+              "name": "set color",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
           "name": "Matrix",
           "children": [
             {
               "name": "createBox",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -1571,9 +2127,37 @@
             {
               "name": "createGradientBox",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
+            }
+          ]
+        },
+        {
+          "name": "Transform",
+          "children": [
+            {
+              "name": "set colorTransform",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get colorTransform",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get matrix",
+              "sites": [
+                "www.youtube.com"
+              ],
+              "status": "0"
             }
           ]
         },
@@ -1635,18 +2219,6 @@
               "status": "0.01"
             }
           ]
-        },
-        {
-          "name": "Transform",
-          "children": [
-            {
-              "name": "get matrix",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            }
-          ]
         }
       ]
     },
@@ -1659,6 +2231,8 @@
             {
               "name": "set leftToLeft",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1666,6 +2240,8 @@
             {
               "name": "set leftToRight",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1673,6 +2249,8 @@
             {
               "name": "set pan",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1680,6 +2258,8 @@
             {
               "name": "set rightToLeft",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1687,6 +2267,8 @@
             {
               "name": "set rightToRight",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1694,7 +2276,63 @@
             {
               "name": "set volume",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "Video",
+          "children": [
+            {
+              "name": "attachNetStream",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get videoHeight",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get videoWidth",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set smoothing",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "clear",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set deblocking",
+              "sites": [
+                "www.vimeo.com"
               ],
               "status": "0"
             }
@@ -1718,28 +2356,19 @@
               "status": "0"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "flash.net.drm",
+      "children": [
         {
-          "name": "Video",
+          "name": "DRMManager$",
           "children": [
             {
-              "name": "attachNetStream",
+              "name": "getDRMManager",
               "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "get videoWidth",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set smoothing",
-              "sites": [
-                "www.youtube.com"
+                "www.funnyordie.com"
               ],
               "status": "0"
             }
@@ -1751,11 +2380,26 @@
       "name": "flash.net",
       "children": [
         {
+          "name": "LocalConnection",
+          "children": [
+            {
+              "name": "send",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
           "name": "NetConnection",
           "children": [
             {
               "name": "call",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1763,7 +2407,16 @@
             {
               "name": "connect",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get uri",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
@@ -1782,6 +2435,7 @@
             {
               "name": "appendBytes",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1789,6 +2443,7 @@
             {
               "name": "appendBytesAction",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1796,6 +2451,8 @@
             {
               "name": "get bufferLength",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1803,7 +2460,109 @@
             {
               "name": "get bufferTime",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get client",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get currentFPS",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get info",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get time",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "pause",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "play",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set bufferTime",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set checkPolicyFile",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set client",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set soundTransform",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get bytesLoaded",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get bytesTotal",
+              "sites": [
+                "www.vimeo.com"
               ],
               "status": "0"
             },
@@ -1815,63 +2574,7 @@
               "status": "0"
             },
             {
-              "name": "get currentFPS",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "get info",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "get time",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "play",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
               "name": "resume",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set bufferTime",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set checkPolicyFile",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set client",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set soundTransform",
               "sites": [
                 "www.youtube.com"
               ],
@@ -1883,21 +2586,39 @@
           "name": "NetStreamInfo",
           "children": [
             {
-              "name": "get audioBufferByteLength",
+              "name": "get byteCount",
               "sites": [
-                "www.youtube.com"
+                "www.funnyordie.com",
+                "www.vimeo.com"
               ],
               "status": "0"
             },
             {
               "name": "get droppedFrames",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
             },
             {
+              "name": "get maxBytesPerSecond",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get playbackBytesPerSecond",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get audioBufferByteLength",
               "sites": [
                 "www.youtube.com"
               ],
@@ -1918,6 +2639,8 @@
             {
               "name": "getLocal",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -1935,8 +2658,18 @@
           "name": "SharedObject",
           "children": [
             {
+              "name": "flush",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get data",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -1949,6 +2682,8 @@
             {
               "name": "addEventListener",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -1956,6 +2691,8 @@
             {
               "name": "load",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -1968,13 +2705,25 @@
             {
               "name": "get data",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get requestHeaders",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
               ],
               "status": "0"
             },
             {
               "name": "get url",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1982,6 +2731,8 @@
             {
               "name": "set data",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1989,6 +2740,8 @@
             {
               "name": "set method",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -1996,6 +2749,8 @@
             {
               "name": "set requestHeaders",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2003,6 +2758,8 @@
             {
               "name": "set url",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2015,6 +2772,25 @@
             {
               "name": "get bytesAvailable",
               "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "load",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "readBytes",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2025,18 +2801,17 @@
                 "www.youtube.com"
               ],
               "status": "0"
-            },
+            }
+          ]
+        },
+        {
+          "name": "URLVariables",
+          "children": [
             {
-              "name": "load",
+              "name": "toString",
               "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "readBytes",
-              "sites": [
-                "www.youtube.com"
+                "www.funnyordie.com",
+                "www.vimeo.com"
               ],
               "status": "0"
             }
@@ -2053,6 +2828,8 @@
             {
               "name": "get currentDomain",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2065,6 +2842,8 @@
             {
               "name": "getDefinition",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2072,6 +2851,7 @@
             {
               "name": "hasDefinition",
               "sites": [
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2082,6 +2862,55 @@
           "name": "Capabilities$",
           "children": [
             {
+              "name": "get language",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "get playerType",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.01"
+            },
+            {
+              "name": "get screenColor",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get screenResolutionX",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get screenResolutionY",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
+              "name": "get version",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "1"
+            },
+            {
               "name": "get hasAccessibility",
               "sites": [
                 "www.youtube.com"
@@ -2090,13 +2919,6 @@
             },
             {
               "name": "get isDebugger",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "get language",
               "sites": [
                 "www.youtube.com"
               ],
@@ -2117,39 +2939,11 @@
               "status": "1"
             },
             {
-              "name": "get playerType",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.01"
-            },
-            {
-              "name": "get screenResolutionX",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
-              "name": "get screenResolutionY",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
-            },
-            {
               "name": "get serverString",
               "sites": [
                 "www.youtube.com"
               ],
               "status": "0.5"
-            },
-            {
-              "name": "get version",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "1"
             }
           ]
         },
@@ -2159,13 +2953,8 @@
             {
               "name": "allowDomain",
               "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0.5"
-            },
-            {
-              "name": "allowInsecureDomain",
-              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.5"
@@ -2173,9 +2962,27 @@
             {
               "name": "get sandboxType",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
+            },
+            {
+              "name": "loadPolicyFile",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "allowInsecureDomain",
+              "sites": [
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0.5"
             }
           ]
         },
@@ -2185,6 +2992,8 @@
             {
               "name": "get currentDomain",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2197,6 +3006,7 @@
             {
               "name": "get totalMemory",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2204,9 +3014,27 @@
             {
               "name": "get totalMemoryNumber",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
+            },
+            {
+              "name": "get useCodePage",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set useCodePage",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
             }
           ]
         }
@@ -2219,15 +3047,9 @@
           "name": "TextField",
           "children": [
             {
-              "name": "get defaultTextFormat",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
               "name": "get text",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2235,12 +3057,135 @@
             {
               "name": "get textHeight",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
             },
             {
+              "name": "get textWidth",
+              "sites": [
+                "www.funnyordie.com"
+              ]
+            },
+            {
               "name": "set autoSize",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set defaultTextFormat",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set embedFonts",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set htmlText",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set scrollH",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set selectable",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set text",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set textColor",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set type",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set wordWrap",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "setTextFormat",
+              "sites": [
+                "www.funnyordie.com",
+                "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get htmlText",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set antiAliasType",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set gridFitType",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set styleSheet",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get defaultTextFormat",
               "sites": [
                 "www.youtube.com"
               ],
@@ -2282,49 +3227,7 @@
               "status": "0"
             },
             {
-              "name": "set defaultTextFormat",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set htmlText",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
               "name": "set multiline",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set selectable",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set text",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "set wordWrap",
-              "sites": [
-                "www.youtube.com"
-              ],
-              "status": "0"
-            },
-            {
-              "name": "setTextFormat",
               "sites": [
                 "www.youtube.com"
               ],
@@ -2338,6 +3241,7 @@
             {
               "name": "set align",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2345,6 +3249,8 @@
             {
               "name": "set bold",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2352,6 +3258,8 @@
             {
               "name": "set color",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2359,13 +3267,37 @@
             {
               "name": "set font",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set indent",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set italic",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set leading",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
             {
               "name": "set leftMargin",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2373,6 +3305,7 @@
             {
               "name": "set rightMargin",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2380,14 +3313,64 @@
             {
               "name": "set size",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "",
+              "sites": [
+                "www.funnyordie.com"
               ],
               "status": "0"
             },
             {
               "name": "set underline",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set url",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set kerning",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set letterSpacing",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            }
+          ]
+        },
+        {
+          "name": "StyleSheet",
+          "children": [
+            {
+              "name": "parseCSS",
+              "sites": [
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "transform",
+              "sites": [
+                "www.vimeo.com"
               ],
               "status": "0"
             }
@@ -2404,6 +3387,8 @@
             {
               "name": "get builtInItems",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2411,6 +3396,8 @@
             {
               "name": "get customItems",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2418,6 +3405,8 @@
             {
               "name": "hideBuiltInItems",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2425,6 +3414,8 @@
             {
               "name": "set builtInItems",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2432,6 +3423,8 @@
             {
               "name": "set customItems",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2444,6 +3437,8 @@
             {
               "name": "set forwardAndBack",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2451,6 +3446,8 @@
             {
               "name": "set loop",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2458,6 +3455,8 @@
             {
               "name": "set play",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2465,6 +3464,8 @@
             {
               "name": "set print",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2472,6 +3473,8 @@
             {
               "name": "set quality",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2479,6 +3482,8 @@
             {
               "name": "set rewind",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2486,6 +3491,8 @@
             {
               "name": "set save",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2493,6 +3500,8 @@
             {
               "name": "set zoom",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2505,6 +3514,8 @@
             {
               "name": "set caption",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2512,6 +3523,8 @@
             {
               "name": "set separatorBefore",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2519,6 +3532,8 @@
             {
               "name": "set visible",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2531,6 +3546,8 @@
             {
               "name": "show",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0"
@@ -2546,29 +3563,105 @@
           "name": "ByteArray",
           "children": [
             {
+              "name": "get bytesAvailable",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get length",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "get position",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "readByte",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "readBytes",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
             },
             {
+              "name": "readInt",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "readObject",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "readShort",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "readUTFBytes",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "readUnsignedByte",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "readUnsignedInt",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "set endian",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "set length",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -2576,6 +3669,7 @@
             {
               "name": "set objectEncoding",
               "sites": [
+                "www.funnyordie.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -2583,6 +3677,8 @@
             {
               "name": "set position",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -2590,6 +3686,8 @@
             {
               "name": "toString",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "0.01"
@@ -2597,13 +3695,55 @@
             {
               "name": "writeByte",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "writeBytes",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "writeInt",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "writeObject",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "writeShort",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "writeUTFBytes",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "writeUnsignedInt",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -2614,15 +3754,48 @@
           "name": "Timer",
           "children": [
             {
+              "name": "get currentCount",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get delay",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
+              "name": "get repeatCount",
+              "sites": [
+                "www.funnyordie.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "get running",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
             },
             {
+              "name": "",
+              "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com"
+              ],
+              "status": "0"
+            },
+            {
               "name": "start",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"
@@ -2630,6 +3803,8 @@
             {
               "name": "stop",
               "sites": [
+                "www.funnyordie.com",
+                "www.vimeo.com",
                 "www.youtube.com"
               ],
               "status": "1"

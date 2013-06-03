@@ -7,19 +7,19 @@ var redraw;
 
   var sites = [
     "www.youtube.com",
+    "www.vimeo.com",
+    "www.funnyordie.com",
 /*
     "beta.abc.go.com_shows",
     "live.wsj.com",
     "movies.uk.msn.com",
     "video.foxnews.com",
-    "vimeo.com",
     "www.aljazeera.com_video_",
     "www.bbc.co.uk",
     "www.bing.com_?scope=video",
     "www.cbc.ca_player",
     "www.cnn.com_video",
     "www.dailymotion.com",
-    "www.funnyordie.com",
     "www.grindtv.com",
     "www.guardian.co.uk_video",
     "www.hulu.com",
