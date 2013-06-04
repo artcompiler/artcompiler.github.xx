@@ -1305,7 +1305,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get currentScene",
@@ -1313,7 +1313,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "1"
             }
           ]
         },
