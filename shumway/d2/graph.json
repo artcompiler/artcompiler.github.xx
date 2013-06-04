@@ -12,7 +12,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -21,7 +22,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -35,7 +37,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -56,7 +59,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -70,7 +74,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -79,7 +84,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -87,7 +93,8 @@
               "name": "cos",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -96,7 +103,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -104,7 +112,8 @@
               "name": "min",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -113,7 +122,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -122,7 +132,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -131,7 +142,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -139,7 +151,8 @@
               "name": "sin",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -148,7 +161,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -174,7 +188,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -183,7 +198,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -197,7 +213,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -211,7 +228,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -220,7 +238,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -254,7 +273,8 @@
               "name": "encodeURIComponent",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -262,7 +282,8 @@
               "name": "escape",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -271,7 +292,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -280,7 +302,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -289,7 +312,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -298,7 +322,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -306,7 +331,8 @@
               "name": "unescape",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -314,28 +340,32 @@
               "name": "parseFloat",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "decodeURIComponent",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "describeType",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
             {
               "name": "getQualifiedClassName",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -347,7 +377,8 @@
             {
               "name": "set lastIndex",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -378,7 +409,8 @@
               "name": "get accessibilityProperties",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -387,7 +419,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -402,7 +435,8 @@
               "name": "get filters",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -411,7 +445,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -420,7 +455,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -428,7 +464,8 @@
               "name": "get mask",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -437,7 +474,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -452,7 +490,8 @@
               "name": "get parent",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -461,7 +500,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -476,7 +516,8 @@
               "name": "get scaleX",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -484,7 +525,8 @@
               "name": "get scaleY",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -493,7 +535,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -502,7 +545,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -510,7 +554,8 @@
               "name": "get visible",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -519,7 +564,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -528,7 +574,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -537,7 +584,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -545,7 +593,8 @@
               "name": "set accessibilityProperties",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -554,7 +603,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -562,7 +612,8 @@
               "name": "set cacheAsBitmap",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -571,7 +622,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -580,7 +632,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -589,7 +642,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -598,7 +652,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -622,7 +677,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -631,7 +687,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -653,7 +710,8 @@
               "name": "set visible",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -662,7 +720,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -671,7 +730,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -680,7 +740,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -688,35 +749,40 @@
               "name": "get mouseX",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get mouseY",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get scrollRect",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "getBounds",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "localToGlobal",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -730,7 +796,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -738,7 +805,8 @@
               "name": "addChildAt",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -747,7 +815,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -756,7 +825,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -772,7 +842,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -781,7 +852,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -790,7 +862,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -799,7 +872,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -808,7 +882,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -817,7 +892,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -825,7 +901,8 @@
               "name": "set tabChildren",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -853,7 +930,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -861,7 +939,8 @@
               "name": "beginGradientFill",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -870,7 +949,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -879,7 +959,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -888,7 +969,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -903,7 +985,8 @@
               "name": "clear",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -911,7 +994,8 @@
               "name": "drawRoundRect",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -919,7 +1003,8 @@
               "name": "lineTo",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -927,21 +1012,24 @@
               "name": "moveTo",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "drawCircle",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "lineGradientStyle",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -954,7 +1042,8 @@
               "name": "get tabEnabled",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -963,7 +1052,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -979,7 +1069,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -987,7 +1078,8 @@
               "name": "set tabEnabled",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -995,14 +1087,16 @@
               "name": "set tabIndex",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
             {
               "name": "set doubleClickEnabled",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             }
@@ -1024,7 +1118,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -1033,7 +1128,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1048,14 +1144,16 @@
             {
               "name": "get content",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get uncaughtErrorEvents",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -1069,7 +1167,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1078,7 +1177,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1087,7 +1187,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1096,7 +1197,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1105,42 +1207,48 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get actionScriptVersion",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get frameRate",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get loaderURL",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get sharedEvents",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get uncaughtErrorEvents",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -1153,51 +1261,57 @@
               "name": "addFrameScript",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "gotoAndPlay",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "gotoAndStop",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "stop",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get currentFrame",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get currentLabels",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "get currentScene",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1211,7 +1325,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1225,7 +1340,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -1239,7 +1355,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1248,7 +1365,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1257,7 +1375,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1278,7 +1397,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1286,7 +1406,8 @@
               "name": "get displayState",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1302,7 +1423,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1311,7 +1433,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1327,7 +1450,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1336,7 +1460,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -1344,35 +1469,40 @@
               "name": "get stageVideos",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "dispatchEvent",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get focus",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get frameRate",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "set frameRate",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -1396,7 +1526,8 @@
             {
               "name": "get name",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1408,7 +1539,8 @@
             {
               "name": "get labels",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1420,35 +1552,40 @@
             {
               "name": "set downState",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "set hitTestState",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "set overState",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "set upState",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "set useHandCursor",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -1472,7 +1609,8 @@
             {
               "name": "clone",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1486,7 +1624,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1502,7 +1641,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1511,7 +1651,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1528,7 +1669,8 @@
                 "www.funnyordie.com",
                 "www.vimeo.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1537,7 +1679,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1558,14 +1701,16 @@
             {
               "name": "isDefaultPrevented",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "stopPropagation",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1579,7 +1724,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1588,7 +1734,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1597,7 +1744,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1605,14 +1753,16 @@
               "name": "toString",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "hasEventListener",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1626,7 +1776,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1635,7 +1786,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1644,7 +1796,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1653,7 +1806,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1662,7 +1816,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1671,7 +1826,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1697,7 +1853,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1706,7 +1863,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1748,7 +1906,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1762,7 +1921,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1771,7 +1931,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1780,14 +1941,16 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set bytesLoaded",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1825,7 +1988,8 @@
               "name": "get text",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1838,7 +2002,8 @@
               "name": "get availability",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1850,7 +2015,8 @@
             {
               "name": "get status",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1869,7 +2035,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1878,7 +2045,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1887,7 +2055,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1896,7 +2065,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1914,7 +2084,8 @@
               "name": "set alpha",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1922,7 +2093,8 @@
               "name": "set blurX",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1930,7 +2102,8 @@
               "name": "set blurY",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1938,7 +2111,8 @@
               "name": "set color",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1946,7 +2120,8 @@
               "name": "set inner",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1954,7 +2129,8 @@
               "name": "set knockout",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1962,7 +2138,8 @@
               "name": "set quality",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1970,7 +2147,8 @@
               "name": "set strength",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -1983,7 +2161,8 @@
               "name": "set alpha",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1991,7 +2170,8 @@
               "name": "set angle",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -1999,7 +2179,8 @@
               "name": "set blurX",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2007,7 +2188,8 @@
               "name": "set blurY",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2015,7 +2197,8 @@
               "name": "set color",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2023,7 +2206,8 @@
               "name": "set distance",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2031,7 +2215,8 @@
               "name": "set hideObject",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2039,7 +2224,8 @@
               "name": "set inner",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2047,7 +2233,8 @@
               "name": "set knockout",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2055,7 +2242,8 @@
               "name": "set quality",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2063,7 +2251,8 @@
               "name": "set strength",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2075,21 +2264,24 @@
             {
               "name": "set blurX",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set blurY",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set quality",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2120,7 +2312,8 @@
               "name": "createBox",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -2128,7 +2321,8 @@
               "name": "createGradientBox",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -2155,7 +2349,8 @@
             {
               "name": "get matrix",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2167,7 +2362,8 @@
             {
               "name": "equals",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -2179,42 +2375,48 @@
             {
               "name": "clone",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "equals",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get bottom",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get left",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get right",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get top",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -2233,7 +2435,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2242,7 +2445,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2251,7 +2455,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2260,7 +2465,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2269,7 +2475,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2278,7 +2485,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2292,7 +2500,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2309,7 +2518,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2318,7 +2528,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2344,14 +2555,16 @@
             {
               "name": "attachNetStream",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set viewPort",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2400,7 +2613,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2409,7 +2623,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2423,7 +2638,8 @@
             {
               "name": "set client",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2436,7 +2652,8 @@
               "name": "appendBytes",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2444,7 +2661,8 @@
               "name": "appendBytesAction",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2453,7 +2671,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2462,7 +2681,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2479,7 +2699,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2488,7 +2709,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2497,7 +2719,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2513,7 +2736,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2521,7 +2745,8 @@
               "name": "set bufferTime",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2530,7 +2755,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2539,7 +2765,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2548,7 +2775,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2569,14 +2797,16 @@
             {
               "name": "get checkPolicyFile",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "resume",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2597,7 +2827,8 @@
               "name": "get droppedFrames",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2613,21 +2844,24 @@
               "name": "get playbackBytesPerSecond",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "get audioBufferByteLength",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "get videoBufferByteLength",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2641,14 +2875,16 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "set defaultObjectEncoding",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -2670,7 +2906,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -2684,7 +2921,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -2693,7 +2931,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -2707,7 +2946,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2724,7 +2964,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2733,7 +2974,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2742,7 +2984,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2751,7 +2994,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2760,7 +3004,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2773,7 +3018,8 @@
               "name": "get bytesAvailable",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2782,7 +3028,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -2791,14 +3038,16 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "get connected",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -2830,7 +3079,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -2844,7 +3094,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -2852,7 +3103,8 @@
               "name": "hasDefinition",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -2865,7 +3117,8 @@
               "name": "get language",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -2874,7 +3127,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -2889,7 +3143,8 @@
               "name": "get screenResolutionX",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -2897,7 +3152,8 @@
               "name": "get screenResolutionY",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -2906,42 +3162,48 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get hasAccessibility",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get isDebugger",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get manufacturer",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
             {
               "name": "get os",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
             {
               "name": "get serverString",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             }
@@ -2955,7 +3217,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             },
@@ -2964,7 +3227,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -2980,7 +3244,8 @@
               "name": "allowInsecureDomain",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.5"
             }
@@ -2994,7 +3259,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             }
@@ -3007,7 +3273,8 @@
               "name": "get totalMemory",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -3016,7 +3283,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -3050,7 +3318,8 @@
               "name": "get text",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3058,7 +3327,8 @@
               "name": "get textHeight",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3073,7 +3343,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3081,7 +3352,8 @@
               "name": "set defaultTextFormat",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3097,7 +3369,8 @@
               "name": "set htmlText",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3113,7 +3386,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3122,7 +3396,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3144,7 +3419,8 @@
               "name": "set wordWrap",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3152,7 +3428,8 @@
               "name": "setTextFormat",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3187,49 +3464,56 @@
             {
               "name": "get defaultTextFormat",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set background",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set backgroundColor",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set border",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set borderColor",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set condenseWhite",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
             {
               "name": "set multiline",
               "sites": [
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -3242,7 +3526,8 @@
               "name": "set align",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3251,7 +3536,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3260,7 +3546,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3269,7 +3556,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3298,7 +3586,8 @@
               "name": "set leftMargin",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3306,7 +3595,8 @@
               "name": "set rightMargin",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3315,7 +3605,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3330,7 +3621,8 @@
               "name": "set underline",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3389,7 +3681,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3398,7 +3691,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3407,7 +3701,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3416,7 +3711,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3425,7 +3721,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -3439,7 +3736,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3448,7 +3746,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3457,7 +3756,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3466,7 +3766,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3475,7 +3776,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3484,7 +3786,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3493,7 +3796,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3502,7 +3806,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -3516,7 +3821,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3525,7 +3831,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             },
@@ -3534,7 +3841,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -3548,7 +3856,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0"
             }
@@ -3575,7 +3884,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3598,7 +3908,8 @@
               "name": "readBytes",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -3614,7 +3925,8 @@
               "name": "readObject",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3662,7 +3974,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3670,7 +3983,8 @@
               "name": "set objectEncoding",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3679,7 +3993,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3688,7 +4003,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "0.01"
             },
@@ -3697,7 +4013,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3744,7 +4061,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
@@ -3779,7 +4097,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3796,7 +4115,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             },
@@ -3805,7 +4125,8 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com"
+                "www.youtube.com",
+                "status"
               ],
               "status": "1"
             }
