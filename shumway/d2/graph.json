@@ -2087,7 +2087,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set blurX",
@@ -2096,7 +2096,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set blurY",
@@ -2105,7 +2105,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set color",
@@ -2114,7 +2114,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set inner",
@@ -2123,7 +2123,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set knockout",
@@ -2132,7 +2132,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set quality",
@@ -2141,7 +2141,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set strength",
@@ -2150,7 +2150,7 @@
                 "www.youtube.com",
                 "status"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -2161,100 +2161,89 @@
               "name": "set alpha",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set angle",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set blurX",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set blurY",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set color",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set distance",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set hideObject",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set inner",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set knockout",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set quality",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set strength",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -2264,26 +2253,23 @@
             {
               "name": "set blurX",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set blurY",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set quality",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         }
