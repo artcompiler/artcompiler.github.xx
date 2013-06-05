@@ -2932,10 +2932,9 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get requestHeaders",
@@ -2943,55 +2942,50 @@
                 "www.funnyordie.com",
                 "www.vimeo.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "get url",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set data",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set method",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set requestHeaders",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "1"
             },
             {
               "name": "set url",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "0"
             }
