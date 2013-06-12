@@ -930,8 +930,7 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "1"
             },
@@ -939,8 +938,7 @@
               "name": "beginGradientFill",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "0.01"
             },
@@ -949,8 +947,7 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "1"
             },
@@ -969,8 +966,7 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "1"
             },
@@ -985,51 +981,45 @@
               "name": "clear",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "1"
+              "status": "0.01"
             },
             {
               "name": "drawRoundRect",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0.01"
+              "status": "1"
             },
             {
               "name": "lineTo",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0.01"
+              "status": "1"
             },
             {
               "name": "moveTo",
               "sites": [
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "1"
             },
             {
               "name": "drawCircle",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0.01"
+              "status": "1"
             },
             {
               "name": "lineGradientStyle",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "0.01"
             }
@@ -3298,19 +3288,17 @@
               "name": "get text",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get textHeight",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get textWidth",
@@ -3323,19 +3311,17 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set defaultTextFormat",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set embedFonts",
@@ -3349,10 +3335,9 @@
               "name": "set htmlText",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set scrollH",
@@ -3366,20 +3351,18 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set text",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set textColor",
@@ -3399,26 +3382,24 @@
               "name": "set wordWrap",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "setTextFormat",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "get htmlText",
               "sites": [
                 "www.vimeo.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set antiAliasType",
@@ -3444,58 +3425,51 @@
             {
               "name": "get defaultTextFormat",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set background",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set backgroundColor",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set border",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set borderColor",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set condenseWhite",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set multiline",
               "sites": [
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -3506,126 +3480,118 @@
               "name": "set align",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set bold",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set color",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set font",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set indent",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set italic",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set leading",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set leftMargin",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set rightMargin",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set size",
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set underline",
               "sites": [
                 "www.funnyordie.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set url",
               "sites": [
                 "www.funnyordie.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set kerning",
               "sites": [
                 "www.vimeo.com"
               ],
-              "status": "0"
+              "status": "0.01"
             },
             {
               "name": "set letterSpacing",
               "sites": [
                 "www.vimeo.com"
               ],
-              "status": "0"
+              "status": "0.01"
             }
           ]
         },
@@ -3661,8 +3627,7 @@
               "sites": [
                 "www.funnyordie.com",
                 "www.vimeo.com",
-                "www.youtube.com",
-                "status"
+                "www.youtube.com"
               ],
               "status": "0"
             },
