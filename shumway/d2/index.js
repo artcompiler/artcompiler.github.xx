@@ -1,34 +1,113 @@
 /* -*- Mode: js; js-indent-level: 2; indent-tabs-mode: nil; tab-width: 2 -*- */
+
+var redraw;
+
 (function () {
   var diameter = 1200;
 
-  var tree = d3.layout.tree()
-    .size([360, diameter / 2 - 120])
-    .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
+  var sites = [
+    "www.youtube.com",
+    "www.vimeo.com",
+    "www.funnyordie.com",
+/*
+    "beta.abc.go.com_shows",
+    "live.wsj.com",
+    "movies.uk.msn.com",
+    "video.foxnews.com",
+    "www.aljazeera.com_video_",
+    "www.bbc.co.uk",
+    "www.bing.com_?scope=video",
+    "www.cbc.ca_player",
+    "www.cnn.com_video",
+    "www.dailymotion.com",
+    "www.grindtv.com",
+    "www.guardian.co.uk_video",
+    "www.hulu.com",
+    "www.liveleak.com",
+    "www.nbc.com_video_",
+    "www.ted.com",
+    "www.twitch.tv",
+    "www.ustream.tv_new",
+    "www.vevo.com",
+    "www.facebook.com",
+*/
+  ];
 
-  var diagonal = d3.svg.diagonal.radial()
-    .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+  var grey = "#aaa";
+  var red = "rgb(246, 21, 49)";
+  var yellow = "rgb(255, 199, 11)";
+  var blue = "rgb(0, 92, 173)";
+  var green = "rgb(55, 135, 98)";
 
-  var svg = d3.select("body").append("svg")
+  var chooserText = [
+    "<b>This page shows the Shumway implementation status for the native Flash APIs ",
+    "used by the top video sites.</b> Choose a video site to see the status of the ",
+    "Shumway implementation. <font class='grey'>Grey means not tested</font>. ",
+    "<font class='green'>Green is good</font>. ",
+    "<font class='red'>Red is bad</font>. <font class='yellow'>Yellow is ",
+    "somewhere in between</font>. (% indicates completion rate, if not 100%, 50% or >10%.)",
+    "The source code can be found here: ",
+    "<a href='https://github.com/artcompiler/P105'>https://github.com/artcompiler/P105</a>. ",
+    "</p><p><b>Warning:</b> The data used to derive this graph is a rough ",
+    "approximation of reality. We plan to automate the data collection from unit ",
+    "tests to make it more timely and accurate.</p>",
+    ].join("");
+
+  var tr = d3.select(".chooser").selectAll("p")
+      .data([1])
+    .enter().append("p")
+      .attr("class", "chooser-text")
+      .html(chooserText);
+
+  var tr = d3.select(".chooser").selectAll("span").data(sites).enter()
+    .append("span")
+    .attr("class", "chooser-item");
+ 
+  tr.append("input")
+      .attr("type", "radio")
+      .attr("name", "site")
+      .attr("value", function (d) {
+        return d;
+      })
+      .attr("title", function (d) {
+        return d;
+      })
+      .attr("onclick", function (d) { return "redraw('"+this.value+"')"})
+
+  tr.append("text")
+      .text(function (d) { return d; });
+
+  tr.select("input[value='www.youtube.com']").attr("checked", "true");
+
+  var rootNode;
+  var color = 0x0fffff
+  var nodes, links;
+  d3.json("graph.json", function(r) {
+    rootNode = r;  // set global
+    redraw("www.youtube.com");
+  });
+
+  redraw = function redraw(site) {
+    d3.select("body").selectAll("svg").remove();
+
+    svg = d3.select("body").append("svg")
+    .attr("class", "graph")
     .attr("width", diameter)
     .attr("height", diameter)
     .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    var r = new TreeTrimmer({site: site}).trim(JSON.parse(JSON.stringify(rootNode)));
 
-  var root;
-  var color = 0x0fffff
-  var nodes, links;
-  d3.json("graph.json", function(r) {
-    root = r;  // set global
-    redraw(r);
-  });
+    var tree = d3.layout.tree()
+      .size([360, diameter / 2 - 120])
+      .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
-  function redraw(root) {
-    root = new TreeTrimmer({site: "www.youtube.com"}).trim(root);
-//    root = new TreeTrimmer({site: "www.facebook.com"}).trim(root);
-    nodes = tree.nodes(root);
+    nodes = tree.nodes(r);
     links = tree.links(nodes);
 
+    var diagonal = d3.svg.diagonal.radial()
+      .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+    
     var link = svg.selectAll(".link")
       .data(links)
 
@@ -39,7 +118,6 @@
 
     link.exit().remove()
 
-
     var node = svg.selectAll(".node")
       .data(nodes)
 
@@ -49,17 +127,38 @@
 
     enter.append("circle")
       .attr("r", 3.5)
-      .attr("onclick", "filter(evt.target)")
       .style("fill", function (d) {
         var rgb;
         if (d.status == 1) {
-          return "green";
+          return green;
+        } else if (d.status == 0) {
+          return grey;
         } else if (d.status < .1) {
-          return "red";
+          return red;
         }
-        return "yellow";
+        return yellow;
       })
-//      .style("stroke", "green");
+      .style("stroke", function (d) {
+        var rgb;
+        if (d.status == 1) {
+          return green;
+        } else if (d.status == 0) {
+          return grey;
+        } else if (d.status < .1) {
+          return red;
+        }
+        return yellow;
+      })
+      .attr("title", function(d) {
+        var status = d.status;
+        if (status < 1 && status > 0.1 && status != .5) {
+          status = " " + Math.round(d.status * 100) + "%";
+        } else {
+          status = "";
+        }
+        return d.name + status;
+      });
+
 
     enter.append("text")
       .attr("dy", ".31em")
@@ -67,13 +166,17 @@
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180) translate(-8)"; })
       .text(function(d) {
         var status = d.status;
-        if (status < 1 && status > 0 && status != .5) {
-          status = " " + Math.round(d.status * 100) + "%";
+        if (status < 1 && status > 0.1 && status != .5) {
+          status = Math.round(d.status * 100) + "%";
         } else {
           status = "";
         }
-        return d.name + status;
-      });
+
+        if (d.name === "root") {
+          d3.select(".title").select("text").html(site + " (" + status + " complete)");
+        }
+        return d.name + " " + status;
+      })
 
     node.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ") translate(" + d.y + ")"; })
 
@@ -97,7 +200,7 @@
       parent.length = parent.length - 1;
       node.parentNode.remove();
     }
-    redraw(root);
+    redraw("");
   }
 
   d3.select(self.frameElement).style("height", diameter + "px");
@@ -116,12 +219,13 @@
           var children = n.children;
           var self = this;
           var children = [];
+          var count = 0;
           n.children.forEach(function (v, i) {
             var c = visit(v, self);
             if (c) {
               children.push(c);
               var status = n.status ? n.status : 0;
-              n.status = (status * i + +c.status) / (i + 1);
+              n.status = (status * count + +c.status) / (count++ + 1);
             }
           });
           if (children.length > 0) {

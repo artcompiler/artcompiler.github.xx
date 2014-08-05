@@ -1,25 +1,85 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<head>
+<title>Shumway Implementation Status</title>
 <style>
 
+body {
+  font: 12px sans-serif;
+}
+
 .node circle {
-  fill: #fff;
-//  stroke: steelblue;
-  stroke-width: 1px;
+  fill: #eee;
+  stroke-width: 0px;
 }
 
 .node {
   font: 8px sans-serif;
 }
 
-.link {
-  fill: none;
-  stroke: #ccc;
-  stroke-width: 1.5px;
+input[type=radio] {
+  height: 10px;
+  width: 10px;
 }
 
+.green {
+  color: rgb(55, 135, 98);
+}
+
+.red {
+  color: rgb(246, 21, 49);
+}
+
+.yellow {
+  color: rgb(255, 199, 11);
+}
+
+.blue {
+  color: rgb(0, 92, 173);
+}
+
+.chooser-item {
+  display: inline-block;
+  width: 200px;
+}
+
+.link {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 1px;
+}
+
+.chooser {
+  width: 1000px;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px #888;
+  padding: 10px;
+  position: absolute;
+  left: 100px;
+}
+
+.chooser-text {
+  font: 14px sans-serif;
+  line-height: 125%;
+}
+
+.title {
+  position: absolute;
+  top: 250px;
+  font: 18px sans-serif;
+  color: #555;
+  text-align: center;
+}
+
+.graph {
+  position: absolute;
+  top: 250px;
+}
 </style>
+</head>
 <body>
+<div class="chooser"/>
+<div class="title"><text/></div>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="index.js"></script>
 </body>
